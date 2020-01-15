@@ -1,0 +1,649 @@
+"theater"
+{
+	"player_templates"
+	{
+		//#############################################//
+		//############### SECURITY PLAYERS ############//
+		//#############################################//
+		"fishpond_template_security_Breacher"
+		{	
+			"team"			        "security"
+			"print_name"			"#Squad_Fireteam_Breacher"
+			"models"
+			{
+				"player"			"models/characters/security_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_sec_l.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"			    "sec_heavy_armor"
+				"gear"			    "sec_chest_rig"
+				"weapon"			"weapon_m590"
+				"weapon"            "weapon_welrod"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_1897"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sawedoff_izh43"
+				"weapon"			"weapon_m67"
+            }
+        }
+		"fishpond_template_security_Engineer"
+		{	
+			"team"			"security"
+			"print_name"	"#Squad_Fireteam_Engineer"
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"       "models/weapons/v_hands_sec_l.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"			    "sec_heavy_armor"
+				"gear"			    "sec_chest_rig"
+				"weapon"            "weapon_m1911"
+				"weapon"            "weapon_welrod"
+				"weapon_upgrade"    "ammo_ap_m1911"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
+			}
+			"allowed_items"
+			{
+				"weapon"            "weapon_m1911"
+				"weapon"            "weapon_m45"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_c4_clicker"
+				"weapon"			"weapon_at4"
+			}
+        }
+		"fishpond_template_security_Sharpshooter"
+		{
+			"team"			"security"
+			"print_name"	"#Squad_Fireteam_Designated_Marksman"
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"       "models/weapons/v_hands_sec_l.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"			    "sec_heavy_armor"
+				"gear"			    "sec_chest_rig"
+				"weapon"            "weapon_welrod"
+				"weapon"			"weapon_k98k"
+				"weapon_upgrade"    "ammo_ap_mosin"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_k98k"
+				"weapon"			"weapon_springfield"
+				"weapon"            "weapon_enfield"
+				"weapon"			"weapon_m67"
+			}
+			
+		}
+		"fishpond_template_security_Sniper"
+		{	
+			"team"			"security"
+			"print_name"	"#Squad_Fireteam_Sniper"
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"       "models/weapons/v_hands_sec_l.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"			    "sec_heavy_armor"
+				"gear"			    "sec_chest_rig"
+				"weapon"            "weapon_m40a1"
+				"weapon"            "weapon_welrod"
+				"weapon_upgrade"    "ammo_ap_m40a1"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_m40a1"
+				"weapon"            "weapon_gwr98"
+				"weapon"            "weapon_mosin"
+				"weapon"			"weapon_m67"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"optic_aimpoint"		"-1"
+					"optic_2xaimpoint"		"-1"
+				}
+			}
+        }
+		//#############################################//
+		//############### INSURGENCT PLAYERS ##########//
+		//#############################################//
+		"fishpond_template_insurgent_Striker"
+		{	
+			"team"			        "insurgents"
+			"print_name"			"#Squad_Cell_Striker"
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_ins_l.mdl"
+				"bodygroups"
+				{
+					"kit"					"1"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			"buy_order" 
+			{
+				"gear"			    "ins_heavy_armor"
+				"gear"			    "ins_chest_rig"
+				"weapon"			"weapon_m590"
+				"weapon"            "weapon_welrod"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_1897"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sawedoff_izh43"
+				"weapon"			"weapon_f1"
+            }
+        }
+		"fishpond_template_insurgent_Sapper"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Sapper"
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"       "models/weapons/v_hands_ins_l.mdl"
+				"bodygroups"
+				{
+					"kit"					"1"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			"buy_order" 
+			{
+				"gear"			    "ins_heavy_armor"
+				"gear"			    "ins_chest_rig"
+				"weapon"            "weapon_m1911"
+				"weapon"            "weapon_welrod"
+				"weapon_upgrade"    "ammo_ap_m1911"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
+			}
+			"allowed_items"
+			{
+				"weapon"            "weapon_m1911"
+				"weapon"            "weapon_m45"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_c4_ied"
+				"weapon"			"weapon_rpg7"
+			}
+        }
+		"fishpond_template_insurgent_Sharpshooter"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Sharpshooter"
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"       "models/weapons/v_hands_ins_l.mdl"
+				"bodygroups"
+				{
+					"kit"					"1"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			"buy_order" 
+			{
+				"gear"			    "ins_heavy_armor"
+				"gear"			    "ins_chest_rig"
+				"weapon"            "weapon_k98k"
+				"weapon"            "weapon_welrod"
+				"weapon_upgrade"    "ammo_ap_mosin"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_k98k"
+				"weapon"			"weapon_springfield"
+				"weapon"            "weapon_enfield"
+				"weapon"			"weapon_f1"
+			}
+        }
+		"fishpond_template_insurgent_Sniper"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Sniper"
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"       "models/weapons/v_hands_ins_l.mdl"
+				"bodygroups"
+				{
+					"kit"					"1"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			"buy_order" 
+			{
+				"gear"			    "ins_heavy_armor"
+				"gear"			    "ins_chest_rig"
+				"weapon"            "weapon_gwr98"
+				"weapon"            "weapon_welrod"
+				"weapon_upgrade"    "ammo_ap_mosin"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_m40a1"
+				"weapon"            "weapon_gwr98"
+				"weapon"            "weapon_mosin"
+				"weapon"			"weapon_f1"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"optic_aimpoint"		"-1"
+					"optic_2xaimpoint"		"-1"
+				}
+			}
+        }
+		//#############################################//
+		//############### SECURITY BOTS ###############//
+		//#############################################//
+		"fishpond_bot_template_security_Breacher"
+		{	
+			"team"			"security"
+			"print_name"	"#Squad_Fireteam_Breacher"
+			"models"
+			{
+				"player"			"models/characters/security_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_sec_l.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"			    "sec_light_armor"
+				"weapon"			"weapon_m590"
+				"weapon_upgrade"	"underbarrel_foregrip_sec2"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_m590"
+			}
+		}
+		"fishpond_bot_template_security_Sharpshooter"
+		{	
+			"team"			"security"
+			"print_name"	"#Squad_Fireteam_Designated_Marksman"
+			"models"
+			{
+				"player"			"models/characters/security_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_sec_l.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"			    "sec_heavy_armor"
+				"weapon"            "weapon_springfield"
+				"weapon_upgrade"    "ammo_ap_mosin"
+			}
+			"allowed_items"
+			{
+				"weapon"            "weapon_springfield"
+			}
+		}
+		"fishpond_bot_template_security_Sniper"
+		{	
+			"team"			"security"
+			"print_name"	"#Squad_Fireteam_Sniper"
+			"models"
+			{
+				"player"			"models/characters/security_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_sec_l.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"			    "sec_heavy_armor"
+				"weapon"            "weapon_m40a1"
+				"weapon_upgrade"    "ammo_ap_m40a1"
+				"weapon_upgrade"    "optic_scope_mk4"
+				"weapon_upgrade"    "underbarrel_bipod"
+				"weapon_upgrade"    "siderail_lasersight_shotgun_sec"
+			}
+			"allowed_items"
+			{
+				"weapon"            "weapon_m40a1"
+			}
+		}
+		"fishpond_bot_template_security_Revolver"
+		{	
+			"team"			"security"
+			"print_name"	"#Squad_Fireteam_Comp_Assault"
+			"models"
+			{
+				"player"			"models/characters/security_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_sec_l.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"			    "sec_light_armor"
+				"weapon"			"weapon_sw1917"
+				"weapon_upgrade"    "sw1917_speedloader"
+				"weapon_upgrade"    "ammo_ap_sw1917"
+				"weapon"            "weapon_molotov"
+			}
+			"allowed_items"
+			{
+			}
+		}
+		"fishpond_bot_template_security_Pistolman"
+		{	
+			"team"			"security"
+			"print_name"	"#Squad_Fireteam_Comp_Assault"
+			"models"
+			{
+				"player"			"models/characters/security_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_sec_l.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"			    "sec_light_armor"
+				"weapon"            "weapon_m1911"
+				"weapon"			"weapon_m67"
+				"weapon_upgrade"    "ammo_ap_m1911"
+			}
+			"allowed_items"
+			{
+				"weapon"            "weapon_m1911"
+				"weapon"			"weapon_m67"
+			}
+		}
+		"fishpond_bot_template_security_Vip"
+		{	
+			"team"			"security"
+			"print_name"	"VIP"
+			"models"
+			{
+				"player"				    "models/characters/civilian_vip_security.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_vip.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"1"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
+			}
+			"buy_order"
+			{
+				"gear"					"sec_super_armor"
+				"gear"			        "sec_chest_carrier"
+				"weapon"                "weapon_molotov"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_f1"
+				"weapon"                "weapon_katana"
+				"gear"                  "weapon_katana_fake"
+			}
+			"allowed_items"
+			{
+				"gear"					"sec_super_armor"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_f1"
+			}
+		}
+		//#############################################//
+		//############### INSURGENCT BOTS #############//
+		//#############################################//
+		"fishpond_bot_template_insurgent_Striker"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Striker"
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_ins_l.mdl"
+				"bodygroups"
+				{
+					"kit"					"1"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			"buy_order" 
+			{
+				"gear"			    "ins_light_armor"
+				"weapon"			"weapon_toz"
+				"weapon_upgrade"    "underbarrel_foregrip_ins2"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_toz"
+			}
+		}
+		"fishpond_bot_template_insurgent_Sharpshooter"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Sharpshooter"
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_ins_l.mdl"
+				"bodygroups"
+				{
+					"kit"					"1"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			"buy_order" 
+			{
+				"gear"			    "ins_heavy_armor"
+				"weapon"            "weapon_k98k"
+				"weapon_upgrade"    "ammo_ap_mosin"
+			}
+			"allowed_items"
+			{
+				"weapon"            "weapon_k98k"
+			}
+		}
+		"fishpond_bot_template_insurgent_Sniper"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Sniper"
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_ins_l.mdl"
+				"bodygroups"
+				{
+					"kit"					"1"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			"buy_order" 
+			{
+				"gear"			    "ins_heavy_armor"
+				"weapon"            "weapon_mosin"
+				"weapon_upgrade"    "optic_scope_7x"
+				"weapon_upgrade"    "ammo_ap_mosin"
+				"weapon_upgrade"    "underbarrel_bipod"
+				"weapon_upgrade"    "siderail_lasersight_shotgun_ins"
+			}
+			"allowed_items"
+			{
+				"weapon"            "weapon_mosin"
+			}
+		}
+		"fishpond_bot_template_insurgent_Revolver"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Fighter"
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_ins_l.mdl"
+				"bodygroups"
+				{
+					"kit"					"1"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			"buy_order" 
+			{
+				"gear"			    "ins_light_armor"
+				"weapon"			"weapon_sw1917"
+				"weapon_upgrade"    "sw1917_speedloader"
+				"weapon_upgrade"    "ammo_ap_sw1917"
+				"weapon"			"weapon_molotov"
+			}
+			"allowed_items"
+			{
+			}
+		}
+		"fishpond_bot_template_insurgent_Pistolman"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Fighter"
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_ins_l.mdl"
+				"bodygroups"
+				{
+					"kit"					"1"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			"buy_order" 
+			{
+				"gear"			    "ins_light_armor"
+				"weapon"            "weapon_makarov"
+				"weapon"			"weapon_f1"
+				"weapon_upgrade"    "ammo_ap_makarov"
+			}
+			"allowed_items"
+			{
+				"weapon"            "weapon_makarov"
+				"weapon"			"weapon_f1"
+			}
+		}
+		"fishpond_bot_template_insurgent_Vip"
+		{	
+			"team"			"insurgents"
+			"print_name"	"VIP"
+			"models"
+			{
+				"player"				    "models/characters/civilian_vip_insurgent.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_vip.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"1"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
+			}
+			"buy_order"
+			{
+				"gear"					"ins_super_armor"
+				"weapon"                "weapon_katana"
+				"gear"                  "weapon_katana_fake"
+				"gear"			        "ins_chest_carrier"
+				"weapon"                "weapon_molotov"
+				"weapon"				"weapon_f1"
+				"weapon"				"weapon_m67"
+			}
+			"allowed_items"
+			{
+				"gear"					"ins_super_armor"
+				"weapon"				"weapon_f1"
+				"weapon"				"weapon_m67"
+			}
+		}
+    }
+}
+

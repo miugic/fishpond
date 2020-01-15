@@ -1,0 +1,158 @@
+﻿﻿/* FISHPOND */
+1752450714 //fishpond_weapons
+1752442902 //fishpond_theater
+1752441645 //fishpond_lans
+/* OTHERS */
+1379716589 //Maps CPSetup.txt Fix 修复地图模式不正确
+/* UI */
+1432912836 //Vote Screen for Cooperation mode Map Collection
+1353915069 //bm_tacticalmaps
+1867199309 //Masterchief Vote Screen
+1876212727 //Masterchief Tactical Maps
+/* MAPS */
+1571676579 //de_prodigy_coop
+1568832749 //cs_downtown_coop
+486127944 //market_coopv2
+1562834364 //ins_chinatown
+599730897 //dust2_checkpoint_b8
+1217898298 //l4d_mercy_hospital_b5
+787297830 //ministry_coop_2013a
+1083625356 //depot_ws_1
+939871975 //shrine_coop
+1469832785 //cs_office_coop_b2
+939862761 //de_cbble_coop_v1
+939865064 //de_lake_coop_nd_v1_2
+939870068 //trenches6_coop_v1_2
+1580296541 //de_aztec_coop
+1457936959 //bastion_coop
+1268701704 //l4d_viennacalling_city_b1
+498255733 //clean_sweep_coop_ws
+574334931 //hurtlocker_coopv2hc
+603342622 //inferno_checkpoint_b2
+1202839339 //de_vertigo_coop
+783832763 //district_coopv3
+965741715 //ministry_coopv2
+1207457291 //cs_italy_coop
+492051918 //the_raid_coop_ws 突袭，室内图
+1648713738 //cs_agency_ins_b2 CSGO办公大楼，可能触发某些玩家反光贴图丢失问题
+1734873741 //de_mirage_csco_pb4
+1148510274 //ministry_coop_old_fixbysakey
+1743348046 //de_train_csgo_pb2
+939888961 //de_safehouse_coop_v1_4_nde2
+1725689439 //pl_minecraft_redstone_f15_ins_b
+605055192 //crossbow
+1749295672 //winter_rescue_coop_1749295672
+939881168 //dust_coop_v1_1
+1646016078 //gg_mario_dtk_v1_d_ins
+1655752799 //phantomfury
+1655754862 //ins_mosul
+1771428118 //karbala_dusk
+1837248149 //de_survivor_css_ins_b
+862973282 //bb_gauntlet_b9_ws
+498252536 //invasion_coop_ws
+1889010299 //de_city_checkpoint_5
+862298845 //bb_valleyofthekings_b8_ws
+
+/* trash */
+1594256177 //counter-attack_empyrean
+1628001859 //counter-attack_galvatron_is_online
+622016611 //Rising Storm Bushido theme for Counter Attack
+469470813 //Grey nightvision 不支持新ws
+1684230987 //Flashbang Black Flash
+815189600 //cs_workout_v1 有bug，有概率会变成5帧，需重启游戏
+1115534556 //haditha_dam_coop_finale //废弃
+1124444873 //rainforest_fixed_final 废弃
+352149578 //game_day_coop_ws 有概率闪退，废弃
+283122727 //dusty_anguish_coopv1_1 换图后进不去服务器，废弃
+318205420 //block_party_coop_ws 废弃，有闪退bug
+346843105 //the_burbs_coop 掉帧，废弃
+939808370 //cs_militia_coop_v1_1 有概率闪退，废弃
+1388153004 //cs_officeb3_coop_v1_5 部分场景掉帧，废弃
+1096591824 //fa-winter_rescue 废弃
+863961825 //hastings 掉帧 废弃
+426742049 //karkar_b10 掉帧，废弃
+939883934 //doi_bastogne BUG,废弃
+426720530 //baghdad_b5 巴格达 贴图bug
+1388155777 //dedust1p2_coop 模型透视，不要
+1501650494 //Docks_coopb2_day 掉帧图
+498253639 //amber_spirits_coop 有闪退问题，废弃
+504080476 //cargo_redux9 货轮，空间狭小，夜间图，废弃
+1150854845 //tell_night_coop
+1147600178 //ministry_night_coop
+1153650444 //sinjar_night_coop
+1156467579 //embassy_night_coop
+939806534 //central_coop_apc_v1_5 掉帧
+1500855044 //l4d_ag_b1 屎黄色的图，看着压抑
+1103217310 //Day Of Infamy Sicily Water
+1125255840 //karkand_redux_p1_v1_2
+1656237753 //cs_747_ins_b1 掉帧
+1194875426 //oms_corridor_coopb3 掉帧
+1442716625 //vietnam_b2 丛林密集，场景掉帧
+523594320 //osama_b3_checkpoint 没什么意思，低频率图
+1642064080 //ins_kabul 没什么意思，低频率图
+1642088392 //ins_leveled 没什么意思，低频率图
+1643019173 //ins_compound2 没什么意思，低频率图
+616494611 //bridge_coop_optimized_v1 开镜掉帧，低频率图
+1097505731 //fa-allinclusive_coop_v6 没什么意思，低频率图
+1448445146 //kandagal_coop_b5 没什么意思，低频率图
+939803683 //badel_coop_v1 有一点掉帧，低频率图
+432649454 //ps7 多个场景有黑烟影响帧数，流程有点久
+1258309711 //l4d_garage01_alleys_b2 没什么意思，低频率图
+1641896391 //ins_abbottabad 没什么意思
+1740874717 //cs_rats_kitchen 工坊里已被删除
+573278223 //panama_canal_b2 有点卡
+1129798050 //dry_canal_coop_v4 有点卡
+1128998660 //desert_hell_coop_v11 有地雷，desert_hell_coop_v6代替
+1769796161 //desert_hell_coop_remix 有点卡
+672667761 //chateau_tunnels_v3 炸服
+447480972 //gizab_b1_coop 掉帧
+1642040604 //ins_combatzone 没意思
+523648618 //takbar_b5 掉帧
+284971476 //tunnel_rats_coop_ws 昏暗
+1125220551 //caves_coop 昏暗
+1148522368 //healthcenter_coop_fixbysakey 掉帧
+1189448765 //miransh_alpha 点太多，没什么意思
+939804613 //desert_warfare_vehicles_coop_v1_3 载具开不动
+1494799396 //nova_prospect 少数人守点，多数人划水
+890747795 //showdown 低频率
+317112080 //station_ws 低频率
+1586272232 //ins_abdallah_coop_fix 有类似的图
+1148520149 //contact_coop_old_fixbysakey 夜晚，黑
+1653480053 //cs_havana_ins_b2 比较黑
+1188029105 //uprising_open_coop 低频率
+1148524212 //market_coop_old_fixbysakey 复活点太远
+1148524967 //siege_coop_old_fixbysakey 低频率
+292081732 //launch_control_coop_ws 低频率
+1130993973 //downtown_coopv1a 掉帧
+400214755 //abdallah_b1 低频率
+1393527442 //point_blank_fix 低频率，有点掉帧
+1846363836 //troopers_dust_ii 空旷
+1843880748 //troopers_dust 空旷
+1855801922 //troopers_camp_fallujah 空旷
+1845594453 //troopers_2019_sadrcity 空旷
+1824061884 //troopers_hillah_village 空旷
+352148389 //angle_iron_coop_ws 掉帧
+1787552582 //karkand_redux_p2 太暗
+1574936010 //cutoff4-9 黄色色调
+939859861 //cs_motel_coop_nd_v1_3 有时候掉帧
+1665369456 //ar_dizzy_ins 太简单
+1502325909 //l4d_garage_lots_day 刷敌人密集
+1124452924 //desert_hell_coop_v6 敌人太久到达
+797028573 //congress_coop 低频率
+1838366428 //troopers_noshaq 这作者的图都空旷的一笔
+1482148634 //facilityb2_coop_v1_1 有时掉帧
+922982416 //ins_panzer_tag 掉帧严重
+873274705 //ins_resistance 闪退
+876340250 //ins_dog_red_coop_ws 闪退
+607285980 //bb_river_coop_ws
+939875067 //r6_safehouse_coop_v1_1 太黑
+939856603 //convoy_day_apc_coop_v1_1
+1148523178 //heights_coop_old_fixbysakey
+1093292666 //baghdad_coop_b5
+1487161887 //treval_v002
+498257082 //fortress_coop_ws 没意思
+248148672 //anbar_coop
+283120201 //bunker_busting_coop_ws
+1501827880 //l4d_ga_b2_day
+1180002850 //nomercy_coopv1
+939873335 //shop_invasion_coop_b2

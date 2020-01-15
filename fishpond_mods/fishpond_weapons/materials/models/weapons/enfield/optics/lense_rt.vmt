@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models\weapons\enfield\optics\lense_rt"
+	$model 1
+
+	"Proxies"
+	{
+		"Scope"
+		{
+		}
+	}
+}
+
+

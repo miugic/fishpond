@@ -1,0 +1,331 @@
+"#base" "fishpond_common_core.theater"
+"#base" "fishpond_common_player.theater"
+"#base" "fishpond_common_ammo.theater"
+"#base" "fishpond_common_weapons.theater"
+"#base" "fishpond_common_upgrades.theater"
+"#base" "fishpond_common_gear.theater"
+
+"theater"
+{
+	"player_gear"
+	{
+		"sec_chest_carrier"
+		{
+			"team_access"				""
+		}
+		"sec_chest_rig"
+		{
+			"team_access"				""
+		}
+		"ins_chest_carrier"
+		{
+			"team_access"				""
+		}
+		"ins_chest_rig"
+		{
+			"team_access"				""
+		}
+		"ins_light_armor"
+		{
+			"gear_cost"				    "0"
+			"gear_weight"				"128"
+		}
+		"ins_heavy_armor"
+		{
+			"gear_cost"				    "0"
+			"gear_weight"				"400"
+		}
+		"sec_light_armor"
+		{
+			"gear_cost"				    "0"
+			"gear_weight"				"128"
+		}
+		"sec_heavy_armor"
+		{
+			"gear_cost"				    "0"
+			"gear_weight"				"400"
+		}
+	}
+	"explosives"
+	{
+		"grenade_m67"
+		{
+			"DetonateDamage"			"110"
+		}
+		"grenade_f1"
+		{
+			"DetonateDamage"			"110"
+		}
+	}
+	"weapons"
+	{
+		"weapon_model10"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		"weapon_webley"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		// ========================================
+		// RIFLES
+		// ========================================
+		"weapon_m40a1"
+		{
+			"ammo_clip"
+			{
+				"clip_max"					"100"
+				"clip_default"				"100"
+			}
+			"weapon_cost"					"0"
+		}
+		"weapon_mosin"
+		{
+			"ammo_clip"
+			{
+				"clip_max"					"100"
+				"clip_default"				"100"
+			}
+			"weapon_cost"					"0"
+		}
+		"weapon_gwr98"
+		{
+			"ammo_clip"
+			{
+				"clip_max"					"100"
+				"clip_default"				"100"
+			}
+			"weapon_cost"					"0"
+		}
+		"weapon_springfield"
+		{
+			"ammo_clip"
+			{
+				"clip_max"					"100"
+				"clip_default"				"100"
+			}
+			"weapon_cost"					"0"
+		}
+		"weapon_k98k"
+		{
+			"ammo_clip"
+			{
+				"clip_max"					"100"
+				"clip_default"				"100"
+			}
+			"weapon_cost"					"0"
+		}
+		"weapon_enfield"
+		{
+			"ammo_clip"
+			{
+				"clip_max"					"100"
+				"clip_default"				"100"
+			}
+			"weapon_cost"					"0"
+		}
+		// ========================================
+		// EXPLOSIVES
+		// ========================================
+		"weapon_molotov"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		"weapon_f1"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+			"weapon_max_subslot"		"0" // can only be in the first explosive slot
+		}
+		"weapon_m67"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+			"weapon_max_subslot"		"0" // can only be in the first explosive slot
+		}
+	}
+	"weapon_upgrades"
+	{
+		"siderail_flashlight_shotgun"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		"siderail_flashlight_pistol"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		"siderail_lasersight_pistol"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		"siderail_lasersight_shotgun_sec"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		"siderail_lasersight_shotgun_ins"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		"barrel_silencer_sec1"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		"barrel_silencer_heavy"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		"barrel_silencer_pistol"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		"underbarrel_bipod"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		"magazine_stripper_clips"
+		{
+			"upgrade_cost"				"0"
+		}
+		"magazine_speedloader_webley"
+		{
+			"upgrade_cost"				"0"
+		}
+		"sw1917_speedloader"
+		{
+			"upgrade_cost"				"0"
+		}
+	}
+	"teams"
+	{
+		"security"
+		{
+			"name"					"#Team_Security"
+			"logo"					"gameui/fac_sec"
+		}
+		"insurgents"
+		{
+			"name"					"#Team_Insurgent"
+			"logo"					"gameui/fac_ins"
+		}
+	}
+	"player_templates"
+	{
+		//Sniper
+		"fishpond_template_security_Sniper"
+		{	
+			"team"			"security"
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"       "models/weapons/v_hands_sec_l.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"			    "sec_light_armor"
+				"weapon"			"weapon_kabar"
+				"weapon"            "weapon_m40a1"
+				"weapon"            "weapon_welrod"
+				"weapon_upgrade"    "ammo_ap_m40a1"
+				"weapon_upgrade"	"optic_scope_mk4"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_m40a1"
+				"weapon"            "weapon_gwr98"
+				"weapon"			"weapon_k98k"
+				"weapon"			"weapon_springfield"
+				"weapon"            "weapon_mosin"
+				"weapon"            "weapon_enfield"
+				"weapon_upgrade"    "optic_scope_7x_k98"
+				"weapon_upgrade"    "optic_scope_7x_enfield"
+				"weapon_upgrade"    "optic_scope_7x_springfield"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"optic_aimpoint"			 "-1"
+					"optic_2xaimpoint"			 "-2"
+					"optic_po4x24"		    	 "-2"
+					"optic_elcan"           	 "-2"
+					"optic_scope_4x_enfield" 	 "-2"
+					"optic_scope_4x_k98"    	 "-2"
+					"optic_scope_4x_springfield" "-2"
+					"optic_scope_7x"             "-3"
+					"optic_scope_mk4"            "-3"
+					"optic_scope_7x_k98"         "-3"
+					"optic_scope_7x_enfield"     "-3"
+					"optic_scope_7x_springfield" "-3"
+				}
+			}
+        }
+		"fishpond_template_insurgent_Sniper"
+		{	
+			"team"			"insurgents"
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"   "models/weapons/v_hands_ins_l.mdl"
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			"buy_order" 
+			{
+				"gear"			    "ins_light_armor"
+				"weapon"            "weapon_mosin"
+				"weapon"			"weapon_gurkha"
+				"weapon"            "weapon_welrod"
+				"weapon_upgrade"    "ammo_ap_mosin"
+				"weapon_upgrade"	"optic_scope_7x"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_m40a1"
+				"weapon"            "weapon_gwr98"
+				"weapon"			"weapon_k98k"
+				"weapon"			"weapon_springfield"
+				"weapon"            "weapon_mosin"
+				"weapon"            "weapon_enfield"
+				"weapon_upgrade"    "optic_scope_7x_k98"
+				"weapon_upgrade"    "optic_scope_7x_enfield"
+				"weapon_upgrade"    "optic_scope_7x_springfield"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"optic_aimpoint"			 "-1"
+					"optic_2xaimpoint"			 "-2"
+					"optic_po4x24"		    	 "-2"
+					"optic_elcan"           	 "-2"
+					"optic_scope_4x_enfield" 	 "-2"
+					"optic_scope_4x_k98"    	 "-2"
+					"optic_scope_4x_springfield" "-2"
+					"optic_scope_7x"             "-3"
+					"optic_scope_mk4"            "-3"
+					"optic_scope_7x_k98"         "-3"
+					"optic_scope_7x_enfield"     "-3"
+					"optic_scope_7x_springfield" "-3"
+				}
+			}
+		}
+    }
+}
+

@@ -1,0 +1,10 @@
+"SurfaceGGX" 
+{
+  $basetexture models\weapons\m1897_fm\m1897_fm_1
+  $bumpmap models\weapons\m1897_fm\m1897_fm_1_n
+  $phongexponenttexture	models\weapons\m1897_fm\m1897_fm_1_e
+"$roughnessmultiplier" "1" 
+"$metal" "1" 
+"$BasemapLuminancePhongMask" "1" 
+"$nocull" "1"
+}

@@ -1,0 +1,37 @@
+//"SurfaceGGX"
+"VertexLitGeneric"
+{
+	$basetexture				"models\weapons\enfield\weapon_enfield_dm"
+	$bumpmap					"models\weapons\enfield\weapon_enfield_nm"
+	$phongexponenttexture		"models\weapons\enfield\weapon_enfield_exp"
+//	$selfillummask				"models\weapons\generic\weapon_generic_si"
+
+
+//BASIC
+	$model						"1"
+    $color						"[ 1 1 1 ]"
+	
+//SELFILLUM (subtle to avoid complete occlusion)
+//	$selfillum					"1"
+//	$selfillumtint				"[ 1 1 1 ]"
+
+//RIMLIGHT
+	$rimlight					"1"
+	$rimlightexponent       	"80"
+	$rimmask					"1"
+	$rimlightboost          	"2.5"	
+
+//PHONG
+	$phong  					"1"
+//	$phongexponent 				"36"
+	$phongboost 				"20"
+	$basemapalphaphongmask		"1"
+	$phongfresnelranges 		"[ 0.1 0.5 1 ]"
+	$phongtint 					"[ 0.6 0.8 1 ]"
+
+//ENVMAP
+	$envmap						"env_cubemap"
+//	$envmapfresnel 				"-1"
+	$basealphaenvmapmask		"1"
+	$envmaptint               	"[ .05 .05 .05 ]"
+}

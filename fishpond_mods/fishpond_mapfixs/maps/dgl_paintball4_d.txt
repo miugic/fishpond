@@ -1,0 +1,12 @@
+"cpsetup.txt"
+{	
+	"firefight"
+	{
+		"controlpoint"		"cap_a"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+		}
+	}
+} 

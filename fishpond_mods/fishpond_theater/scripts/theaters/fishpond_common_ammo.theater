@@ -1,0 +1,110 @@
+"#base" "base_common_ammo.theater"
+
+"theater"
+{
+	"ammo"
+	{
+		"00buck"
+		{
+			"Damage"
+			{
+				"10"					"65"
+				"100"                   "55"
+				"800"					"20"
+				"2000"					"5"
+			}
+		}
+		"slug"
+		{
+			"Damage"
+			{
+				"10"					"480"
+				"100"                   "475"
+				"800"					"240"
+				"4500"					"50"
+				"9000"					"10"
+			}
+		}
+		"762x51"	// 147gr 833 m/s 3,304J
+		{
+			"import"				"default"
+			"SuppressionIncrement"		"90"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"Damage"
+			{
+				"10"					"180"
+				"20000"					"100"
+			}
+			"PenetrationPower"
+			{
+				"10"					"1500"
+				"20000"					"600"
+			}
+		}
+		"762x51_ap"
+		{
+			"import"				"762x51"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"5.00"
+				"HITGROUP_CHEST"			"5.00"
+				"HITGROUP_STOMACH"			"5.00"
+				"HITGROUP_LEFTARM"			"3.00"
+				"HITGROUP_RIGHTARM"			"3.00"
+				"HITGROUP_LEFTLEG"			"3.00"
+				"HITGROUP_RIGHTLEG"			"3.00"
+			}
+			"PenetrationPower"
+			{
+				"10"					"1500"
+				"20000"					"800"
+			}
+		}
+		"762x54"	// 181gr 786m/s  3,614J
+		{
+			"import"				"762x51"
+			"brass_model"			"models/weapons/shells/762x54.mdl"
+		}
+		"762x54_ap"
+		{
+			"import"				"762x51_ap"
+			"brass_model"			"models/weapons/shells/762x54.mdl"
+		}
+		"9x19mm_w"
+		{
+			"import"				"9x19_ap"
+			"magsize"				"8"
+			"Damage"
+			{
+				"1"					    "460"
+				"100"                   "450"
+				"800"					"50"
+				"4500"					"5"
+			}	
+		}
+		"45acp_pistol_sw1917"
+		{
+			"import"				"45acp_pistol"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+			"SuppressionIncrement"	"15"
+			"magsize"				"6"
+			"carry"					"48"
+		}
+		"45acp_ap_pistol_sw1917"
+		{
+			"import"				"45acp_ap_pistol"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+			"SuppressionIncrement"	"15"
+			"magsize"				"6"
+			"carry"					"48"
+			"Damage"
+			{
+				"1"					    "465"
+				"100"                   "460"
+				"800"					"80"
+				"4500"					"10"
+			}
+		}
+	}
+}
+

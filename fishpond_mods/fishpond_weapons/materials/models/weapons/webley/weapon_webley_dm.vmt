@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+"$basetexture"	"models\weapons\webley\weapon_webley_dm"
+"$bumpmap"	"models\weapons\webley\weapon_webley_nm"
+
+"$phong" "1"
+"$phongexponent" "36"
+"$phongboost" "0.5"
+"$phongfresnelranges" "[5 10 10]"
+"$phongtint" "[1.03 1.01 1]"
+"$phongalbedotint" "1"	
+$halflambert	1
+
+"$envmap" "env_cubemap"
+"$normalmapalphaenvmapmask" "1"
+"$envmaptint"	"[0.01 0.013 0.018]"
+$envmapfresnel	1
+
+"$rimlight" "1"
+"$rimlightexponent" "60"
+"$rimlightboost" "0.5"
+"$rimmask" "1"
+
+"$nocull" "1"
+}

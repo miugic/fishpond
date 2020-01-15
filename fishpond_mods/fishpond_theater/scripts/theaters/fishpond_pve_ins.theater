@@ -1,0 +1,116 @@
+"#base" "fishpond_pve_shared.theater"
+"#base" "fishpond_pve_squad_templates.theater"
+
+"theater"
+{
+	"player_gear"
+	{
+		"sec_light_armor"
+		{
+			"team_access"				"insurgent"
+		}
+		"sec_heavy_armor"
+		{
+			"team_access"				"insurgent"
+		}
+		"sec_chest_carrier"
+		{
+			"team_access"				"insurgent"
+		}
+		"sec_chest_rig"
+		{
+			"team_access"				"insurgent"
+		}
+		"ins_light_armor"
+		{
+			"team_access"				"security"
+		}
+		"ins_heavy_armor"
+		{
+			"team_access"				"security"
+		}
+		"ins_chest_carrier"
+		{
+			"team_access"				"security"
+		}
+		"ins_chest_rig"
+		{
+			"team_access"				"security"
+		}
+	}
+	"teams"
+	{
+		"security"
+		{
+			"name"					"#Team_Insurgent"
+			"logo"					"gameui/fac_ins"
+			"squads"
+			{
+				"#Fireteam_Alpha"
+				{
+					"#Squad_Cell_Leader_Striker"		"fishpond_template_insurgent_Striker"
+					"#Squad_Cell_Striker"				"fishpond_template_insurgent_Striker"
+					"#Squad_Cell_Striker"				"fishpond_template_insurgent_Striker"
+					"#Squad_Cell_Striker"				"fishpond_template_insurgent_Striker"
+					"#Squad_Cell_Sapper"				"fishpond_template_insurgent_Sapper"
+					"#Squad_Cell_Sapper"				"fishpond_template_insurgent_Sapper"
+					"#Squad_Cell_Sapper"				"fishpond_template_insurgent_Sapper"
+					"#Squad_Cell_Sapper"				"fishpond_template_insurgent_Sapper"
+				}
+				"#Fireteam_Bravo"
+				{
+					"#Squad_Cell_Leader_Sharpshooter"	"fishpond_template_insurgent_Sharpshooter"
+					"#Squad_Cell_Sharpshooter"			"fishpond_template_insurgent_Sharpshooter"
+					"#Squad_Cell_Sharpshooter"			"fishpond_template_insurgent_Sharpshooter"
+					"#Squad_Cell_Sharpshooter"			"fishpond_template_insurgent_Sharpshooter"
+					"#Squad_Cell_Sniper"				"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"				"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"				"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"				"fishpond_template_insurgent_Sniper"
+				}
+			}
+		}
+		"insurgents"
+		{
+			"name"					"#Team_Security"
+			"logo"					"gameui/fac_sec"
+			"squads"
+			{
+				"#Cell_Alpha"
+				{
+					"#Squad_Fireteam_Breacher"				"fishpond_bot_template_security_Breacher"
+					"#VIP_RoleName"				        	"fishpond_bot_template_security_Vip"
+					"#Squad_Fireteam_Designated_Marksman"	"fishpond_bot_template_security_Sharpshooter"
+					"#Squad_Fireteam_Comp_Assault"			"fishpond_bot_template_security_Pistolman"
+					"#Squad_Fireteam_Sniper"				"fishpond_bot_template_security_Sniper"
+					"#Squad_Fireteam_Breacher"				"fishpond_bot_template_security_Breacher"
+					"#Squad_Fireteam_Designated_Marksman"	"fishpond_bot_template_security_Sharpshooter"
+					"#Squad_Fireteam_Sniper"				"fishpond_bot_template_security_Sniper"
+				}
+				"#Cell_Bravo"
+				{
+					"#Squad_Fireteam_Breacher"				"fishpond_bot_template_security_Breacher"
+					"#Squad_Fireteam_Designated_Marksman"	"fishpond_bot_template_security_Sharpshooter"
+					"#Squad_Fireteam_Comp_Assault"			"fishpond_bot_template_security_Pistolman"
+					"#Squad_Fireteam_Sniper"				"fishpond_bot_template_security_Sniper"
+					"#Squad_Fireteam_Breacher"				"fishpond_bot_template_security_Breacher"
+					"#Squad_Fireteam_Designated_Marksman"	"fishpond_bot_template_security_Sharpshooter"
+					"#Squad_Fireteam_Comp_Assault"			"fishpond_bot_template_security_Revolver"
+					"#Squad_Fireteam_Sniper"				"fishpond_bot_template_security_Sniper"
+				}
+				"#Cell_Charlie"
+				{
+					"#Squad_Fireteam_Breacher"				"fishpond_bot_template_security_Breacher"
+					"#Squad_Fireteam_Designated_Marksman"	"fishpond_bot_template_security_Sharpshooter"
+					"#Squad_Fireteam_Comp_Assault"			"fishpond_bot_template_security_Revolver"
+					"#Squad_Fireteam_Sniper"				"fishpond_bot_template_security_Sniper"
+					"#Squad_Fireteam_Breacher"				"fishpond_bot_template_security_Breacher"
+					"#Squad_Fireteam_Designated_Marksman"	"fishpond_bot_template_security_Sharpshooter"
+					"#Squad_Fireteam_Comp_Assault"			"fishpond_bot_template_security_Pistolman"
+					"#Squad_Fireteam_Sniper"				"fishpond_bot_template_security_Sniper"
+				}
+			}
+		}
+	}
+}
+

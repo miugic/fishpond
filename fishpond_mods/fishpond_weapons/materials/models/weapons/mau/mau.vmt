@@ -1,0 +1,10 @@
+"SurfaceGGX" 
+{
+	"$basetexture" "models\weapons\mau\body"
+	"$bumpmap" "models\weapons\mau\body_norm"
+	"$PhongExponentTexture" "models\weapons\mau\body_exp"
+	"$roughnessmultiplier" "1" 
+	"$metal" "1" 
+	"$BasemapLuminancePhongMask" "1" 
+	$nocull 1
+}

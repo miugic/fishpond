@@ -1,0 +1,36 @@
+﻿/* FISHPOND */
+1752450714 //fishpond_weapons
+1752442902 //fishpond_theater
+1752441645 //fishpond_lans
+1806720917 //fishpond_mapfixs
+
+/* MAPS */
+1334055015 //3mc_training_p1fix
+1404311058 //ins_killhouse_p1
+1172474405 //ins_mcworld_p1fix
+958644980 //dgl_aim1
+958342001 //dgl_snipe4
+958648054 //dgl_pb_mao4
+1655048105 //fy_iceworld_pvp
+958706704 //smallmap_v2
+958660480 //aim_training_5
+958703589 //dgl_speed2
+1334058988 //ins_cf_transportship_p1fix
+1537652666 //pb_norrington_rgb_winter_ins
+958646059 //dgl_paintball4_d
+
+/* TRASH */
+1334060570 //ins_de_inferno_minecraft_p1 地图太大，节奏缓慢
+1404306467 //ins_awp_metro_p1 掉帧
+1404312542 //ins_shutdown_p1 掉帧
+1357817890 //ins_assault_classic_p1 不平衡
+1334056305 //ins_aim_dark_water_p2
+1334062351 //ins_fy_killhouse_cod4_p2
+1404309663 //ins_cf_newyear_p1
+1334067591 //ins_pillar_p1fix
+1334066238 //ins_partition_p1fix
+1537667263 //xmas_last_stand 黑
+958706088 //dgl_street3
+958608682 //aim_shootout_a3
+1357818517 //ins_modern_p1
+958644060 //dgl_ministry1 太黑

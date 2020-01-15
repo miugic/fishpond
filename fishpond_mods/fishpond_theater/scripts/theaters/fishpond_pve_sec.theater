@@ -1,0 +1,117 @@
+"#base" "fishpond_pve_shared.theater"
+"#base" "fishpond_pve_squad_templates.theater"
+
+"theater"
+{
+	"player_gear"
+	{
+		"ins_light_armor"
+		{
+			"team_access"				"insurgent"
+		}
+		"ins_heavy_armor"
+		{
+			"team_access"				"insurgent"
+		}
+		"ins_chest_carrier"
+		{
+			"team_access"				"insurgent"
+		}
+		"ins_chest_rig"
+		{
+			"team_access"				"insurgent"
+		}
+
+		"sec_light_armor"
+		{
+			"team_access"				"security"
+		}
+		"sec_heavy_armor"
+		{
+			"team_access"				"security"
+		}
+		"sec_chest_carrier"
+		{
+			"team_access"				"security"
+		}
+		"sec_chest_rig"
+		{
+			"team_access"				"security"
+		}
+	}
+	"teams"
+	{
+		"security"
+		{
+			"name"					"#Team_Security"
+			"logo"					"gameui/fac_sec"
+			"squads"
+			{
+				"#Fireteam_Alpha"
+				{
+					"#Squad_Fireteam_Leader_Breacher"	"fishpond_template_security_Breacher"
+					"#Squad_Fireteam_Breacher"	"fishpond_template_security_Breacher"
+					"#Squad_Fireteam_Breacher"	"fishpond_template_security_Breacher"
+					"#Squad_Fireteam_Breacher"	"fishpond_template_security_Breacher"
+					"#Squad_Fireteam_Engineer"	"fishpond_template_security_Engineer"
+					"#Squad_Fireteam_Engineer"	"fishpond_template_security_Engineer"
+					"#Squad_Fireteam_Engineer"	"fishpond_template_security_Engineer"
+					"#Squad_Fireteam_Engineer"	"fishpond_template_security_Engineer"
+				}
+				"#Fireteam_Bravo"
+				{
+					"#Squad_Fireteam_Leader_Designated_Marksman"	"fishpond_template_security_Sharpshooter"
+					"#Squad_Fireteam_Designated_Marksman"	"fishpond_template_security_Sharpshooter"
+					"#Squad_Fireteam_Designated_Marksman"	"fishpond_template_security_Sharpshooter"
+					"#Squad_Fireteam_Designated_Marksman"	"fishpond_template_security_Sharpshooter"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+				}
+			}
+		}
+		"insurgents"
+		{
+			"name"					"#Team_Insurgent"
+			"logo"					"gameui/fac_ins"
+			"squads"
+			{
+				"#Cell_Alpha"
+				{
+					"#Squad_Cell_Striker"			"fishpond_bot_template_insurgent_Striker"
+					"#Squad_Cell_Fighter"			"fishpond_bot_template_insurgent_Pistolman"
+					"#VIP_RoleName"				    "fishpond_bot_template_insurgent_Vip"
+					"#Squad_Cell_Sharpshooter"		"fishpond_bot_template_insurgent_Sharpshooter"
+					"#Squad_Cell_Sniper"			"fishpond_bot_template_insurgent_Sniper"
+					"#Squad_Cell_Striker"			"fishpond_bot_template_insurgent_Striker"
+					"#Squad_Cell_Sharpshooter"		"fishpond_bot_template_insurgent_Sharpshooter"
+					"#Squad_Cell_Sniper"			"fishpond_bot_template_insurgent_Sniper"
+				}
+				"#Cell_Bravo"
+				{
+					"#Squad_Cell_Striker"			"fishpond_bot_template_insurgent_Striker"
+					"#Squad_Cell_Sharpshooter"		"fishpond_bot_template_insurgent_Sharpshooter"
+					"#Squad_Cell_Fighter"			"fishpond_bot_template_insurgent_Pistolman"
+					"#Squad_Cell_Sniper"			"fishpond_bot_template_insurgent_Sniper"
+					"#Squad_Cell_Striker"			"fishpond_bot_template_insurgent_Striker"
+					"#Squad_Cell_Sharpshooter"		"fishpond_bot_template_insurgent_Sharpshooter"
+					"#Squad_Cell_Fighter"			"fishpond_bot_template_insurgent_Revolver"
+					"#Squad_Cell_Sniper"			"fishpond_bot_template_insurgent_Sniper"
+				}
+				"#Cell_Charlie"
+				{
+					"#Squad_Cell_Sharpshooter"		"fishpond_bot_template_insurgent_Sharpshooter"
+					"#Squad_Cell_Striker"			"fishpond_bot_template_insurgent_Striker"
+					"#Squad_Cell_Sniper"			"fishpond_bot_template_insurgent_Sniper"
+					"#Squad_Cell_Fighter"			"fishpond_bot_template_insurgent_Revolver"
+					"#Squad_Cell_Sharpshooter"		"fishpond_bot_template_insurgent_Sharpshooter"
+					"#Squad_Cell_Striker"			"fishpond_bot_template_insurgent_Striker"
+					"#Squad_Cell_Fighter"			"fishpond_bot_template_insurgent_Pistolman"
+					"#Squad_Cell_Sniper"			"fishpond_bot_template_insurgent_Sniper"
+				}
+			}
+		}
+	}
+}
+

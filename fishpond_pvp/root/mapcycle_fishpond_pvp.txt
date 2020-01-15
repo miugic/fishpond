@@ -1,0 +1,13 @@
+3mc_training_p1fix firefight
+ins_killhouse_p1 firefight
+ins_mcworld_p1fix firefight
+dgl_aim1 firefight
+dgl_snipe4 firefight
+dgl_pb_mao4 firefight
+fy_iceworld_pvp firefight
+smallmap_v2 firefight
+aim_training_5 firefight
+dgl_speed2 firefight
+ins_cf_transportship_p1fix firefight
+pb_norrington_rgb_winter_ins firefight
+dgl_paintball4_d firefight

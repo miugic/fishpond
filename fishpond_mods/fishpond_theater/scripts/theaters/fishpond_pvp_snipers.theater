@@ -1,0 +1,65 @@
+"#base" "fishpond_pvp_shared.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				"#Fireteam_Alpha"
+				{
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+				}
+				"#Fireteam_Bravo"
+				{
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+					"#Squad_Fireteam_Sniper"	"fishpond_template_security_Sniper"
+				}
+			}
+		}
+		"insurgents"
+		{
+			"squads"
+			{
+				"#Cell_Alpha"
+				{
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+				}
+				"#Cell_Bravo"
+				{
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+					"#Squad_Cell_Sniper"			"fishpond_template_insurgent_Sniper"
+				}
+			}
+		}
+	}
+}
+

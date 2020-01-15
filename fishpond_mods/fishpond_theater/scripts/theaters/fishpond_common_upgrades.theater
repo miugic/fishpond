@@ -1,0 +1,1546 @@
+"#base" "default_weapon_upgrades.theater"
+
+"theater"
+{
+	"weapon_upgrades"
+	{
+		"base_optic_rail"
+		{
+			"IsBase"				"1"
+			"upgrade_slot"				"optics"
+			
+			"viewmodel_attachments"
+			{
+				// Mosin modkit
+				"ModkitMosin"
+				{
+					"model"					"models/weapons/upgrades/a_modkit_mosin.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_mosin"
+					}
+				}
+				"ModkitGwr98"
+				{
+					"model"					"models/weapons/upgrades/a_modkit_gwr98.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_gwr98"
+					}
+				}
+				"ModKit05"
+				{
+					"model"					"models/weapons/upgrades/a_modkit_05.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_1897"
+						"weapon"				"weapon_m590"
+					}
+				}
+				"BoltSpringfield"
+				{
+					"model"					"models/weapons/upgrades/a_bolt_springfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_springfield"
+					}
+				}
+			}
+			"world_attachments"
+			{
+				// Mosin modkit
+				"ModkitMosin"
+				{
+					"model"					"models/weapons/upgrades/w_modkit_mosin.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_gwr98"
+						"weapon"				"weapon_mosin"
+					}
+				}
+				"Modkit5"
+				{
+					"model"					"models/weapons/upgrades/w_modkit_5.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_1897"
+						"weapon"				"weapon_m590"
+					}
+				}
+			}
+		}
+		
+		"ammo_hp_m9"
+		{
+			"upgrade_cost"				"99"
+			"class_restricted"          "1"
+		}
+		"ammo_ap_m9"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m9"
+			}
+		}
+
+		"ammo_hp_makarov"
+		{
+			"upgrade_cost"				"99"
+			"class_restricted"          "1"
+		}
+		"ammo_ap_makarov"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+
+		"ammo_hp_m1911"
+		{
+			"upgrade_cost"				"99"
+			"class_restricted"          "1"
+		}
+		"ammo_ap_m1911"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m1911"
+			}
+		}
+
+		"ammo_ap_sw1917"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"0"
+			"class_restricted"          "0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sw1917"
+			}
+			"ammo_type_override"			"45acp_ap_pistol_sw1917"
+		}
+
+		"ammo_hp_m45"
+		{
+			"upgrade_cost"				"99"
+			"class_restricted"          "1"
+		}
+		"ammo_ap_m45"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m45"
+			}
+		}
+		"ammo_ap_m40a1"
+		{
+			"import"						"base_ammo_ap"	
+			"upgrade_cost"					"0"
+			"class_restricted"				"0"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_m40a1"
+			}
+			"ammo_type_override"			"762x54mm_ap"
+		}
+		"ammo_ap_mosin"
+		{
+			"import"						"base_ammo_ap"
+			"upgrade_cost"					"0"
+			"class_restricted"				"0"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_mosin"
+				"weapon"					"weapon_enfield"
+				"weapon"					"weapon_gwr98"
+				"weapon"					"weapon_k98k"
+				"weapon"					"weapon_springfield"
+			}
+			"ammo_type_override"			"762x54mm_ap"
+		}
+		"ammo_slugs"
+		{
+			"import"				        "base_ammo_slugs"
+			"class_restricted"				"0"
+			"upgrade_cost"					"1"
+			"print_name"					"#weapon_upgrade_slugs"
+			"print_desc"					"#weapon_upgrade_slugs_desc"
+			"spread_frac"					"0.04"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_1897"
+				"weapon"				"weapon_toz"
+			}
+		}
+		"ammo_hp_model10"
+		{
+			"import"					"base_ammo_hp"
+			"class_restricted"			"1"
+			"upgrade_cost"				"99"
+		}
+		"ammo_ap_model10"
+		{
+			"import"					"base_ammo_ap"
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_model10"
+				"weapon"				"weapon_webley"
+			}
+			"ammo_type_override"		"38special_ap"
+		}
+
+		// ========================================
+		// VANILA SCOPES
+		// ========================================	
+
+		"optic_kobra"
+		{
+			"upgrade_cost"					"1"
+			"class_restricted"			    "0"
+			"team_access"				    "security, insurgent"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_m590"
+				"weapon"					"weapon_toz"
+				"weapon"					"weapon_1897"
+			}
+		}
+		
+		"optic_aimpoint"
+		{
+			"upgrade_cost"					"1"
+			"class_restricted"			    "0"
+			"team_access"				    "security, insurgent"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_mosin"
+				"weapon"					"weapon_gwr98"
+				"weapon"					"weapon_m40a1"
+				"weapon"				    "weapon_m590"
+				"weapon"					"weapon_1897"
+				"weapon"				    "weapon_toz"
+			}
+			"optics_fov_override"
+			{
+				"weapon_mosin"
+				{
+					"fov_wpn_ironsight"			"47"
+					"fov_wpn_focus"				"50"
+				}
+				"weapon_gwr98"
+				{
+					"fov_wpn_ironsight"			"67"
+					"fov_wpn_focus"				"70"
+				}
+				"weapon_m40a1"
+				{
+					"fov_wpn_ironsight"			"47"
+					"fov_wpn_focus"				"50"
+				}
+			}
+		}
+		"optic_eotech"
+		{
+			"upgrade_cost"					"1"
+			"class_restricted"			    "0"
+			"team_access"				    "security, insurgent"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_m590"
+				"weapon"					"weapon_1897"
+				"weapon"					"weapon_toz"
+			}
+		}
+		"optic_2xaimpoint"
+		{
+			"upgrade_cost"					"2"
+			"class_restricted"			    "0"
+			"team_access"				    "security, insurgent"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_mosin"
+				"weapon"					"weapon_m40a1"
+				"weapon"					"weapon_gwr98"
+			}
+			"optics_fov_override"
+			{
+				"weapon_mosin"
+				{
+					"fov_wpn_ironsight"			"49"
+					"fov_wpn_focus"				"52"
+				}
+				"weapon_gwr98"
+				{
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"53"
+				}
+				"weapon_m40a1"
+				{
+					"fov_wpn_ironsight"			"49"
+					"fov_wpn_focus"				"52"
+				}
+			}
+		}
+		"optic_po4x24"
+		{
+			"class_restricted"			    "0"
+			"upgrade_cost"				    "2"
+			"team_access"				    "security, insurgent"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_mosin"
+				"weapon"					"weapon_gwr98"
+			}
+			"optics_fov_override"
+			{
+				"weapon_mosin"
+				{
+					"fov_wpn_ironsight"			"53"
+					"fov_wpn_focus"				"56"
+				}
+				"weapon_gwr98"
+				{
+					"fov_wpn_ironsight"			"53"
+					"fov_wpn_focus"				"56"
+				}
+			}
+		}
+		"optic_elcan"
+		{
+			"import"				    "base_optic_rail"
+			"upgrade_cost"				"2"
+			"class_restricted"			"0"
+			"print_name"				"#weapon_upgrade_elcan"
+			"print_desc"				"#weapon_upgrade_elcan_desc"
+			"team_access"				"security, insurgent"
+			"weight"					"5"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_m40a1"
+			}
+			"optics_fov_override"
+			{
+				"weapon_m40a1"
+				{
+					"fov_wpn_ironsight"			"47"
+					"fov_wpn_focus"				"50"
+				}
+			}
+		}
+		"optic_scope_7x"
+		{
+			"upgrade_cost"					"3"
+			"class_restricted"			    "0"
+			"team_access"				    "security, insurgent"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_mosin"
+				"weapon"					"weapon_gwr98"
+			}
+			"viewmodel_attachments"
+			{
+				"scope_mosin"
+				{
+					"model"					"models/weapons/upgrades/a_optic_mosin.mdl"
+					"AnimIronSights"			"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_mosin"
+						"weapon"				"weapon_gwr98"
+					}
+				}
+			}
+			"optics_fov_override"
+			{
+				"weapon_mosin"
+				{
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"49"
+				}
+				"weapon_gwr98"
+				{
+					"fov_wpn_ironsight"			"39"
+					"fov_wpn_focus"				"42"
+				}
+			}
+			"world_attachments"
+			{
+				"Scope"
+				{
+					"model"					"models/weapons/upgrades/w_scope_mosin.mdl"
+					"weapons"
+					{
+						"weapon"				"weapon_mosin"
+						"weapon"				"weapon_gwr98"
+					}
+				}
+			}
+		}
+		"optic_scope_mk4"
+		{
+			"upgrade_cost"					"3"
+			"class_restricted"			    "0"
+			"team_access"				    "security, insurgent"
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_m40a1"
+			}
+			"optics_fov_override"
+			{
+				"weapon_m40a1"
+				{
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"53"
+				}
+			}
+			"viewmodel_attachments"
+			{
+				"scope_m40a1"
+				{
+					
+					"weapons"
+					{
+						"weapon"				"weapon_m40a1"
+					}
+				}
+			}
+			"world_attachments"
+			{
+				"Scope"
+				{
+					"weapons"
+					{
+						"weapon"				"weapon_m40a1"
+					}
+				}
+			}
+		}
+		// ========================================
+		// OTHERS
+		// ========================================	
+		"underbarrel_foregrip_sec2"
+		{
+			"import"				"base_foregrip"
+			"upgrade_cost"		    "2"
+			"weight"				"4"
+			"class_restricted"		"0"
+			"team_access"				"security, insurgent"
+			"allowed_weapons"
+			{
+				"weapon"				    "weapon_m590"
+				"weapon"					"weapon_1897"
+			}
+			"viewmodel_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/a_foregrip_sec2.mdl"
+					"Gesture"				"delta_foregrip"
+					"ActSuffix"				"_FOREGRIP"
+					"weapons"
+					{
+						"weapon"			"weapon_m590"
+						"weapon"			"weapon_1897"
+					}
+					"scales"
+					{
+						"weapon_m590"				"0.55"
+						"weapon_1897"				"0.55"
+					}
+				}
+			}
+		}
+		"siderail_lasersight_shotgun_sec"
+		{
+			"import"					"base_lasersight"
+			"class_restricted"			"0"
+			"upgrade_cost"				"2"
+			"team_access"				"security, insurgent"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_1897"
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_m40a1"
+			}
+			"viewmodel_attachments"
+			{
+				"laser_band"
+				{
+					"model"					"models/weapons/upgrades/a_laser_sec_shotgun.mdl"
+					"Main"					"1"
+					"weapons"
+					{
+						"weapon"			"weapon_1897"
+						"weapon"			"weapon_m590"
+					}
+				}
+			}
+		}
+		"siderail_lasersight_shotgun_ins"
+		{
+			"import"					"base_lasersight"
+			"upgrade_cost"				"2"
+			"class_restricted"			"0"
+			"team_access"				"security, insurgent"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_toz"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_gwr98"
+			}
+			"viewmodel_attachments"
+			{
+				"laser_band"
+				{
+					"model"					"models/weapons/upgrades/a_laser_ins_shotgun.mdl"
+					"Main"					"1"
+				}
+			}
+		}
+		"siderail_flashlight_shotgun"
+		{
+			"import"				"base_flashlight"
+			"upgrade_cost"		    "1"
+			"weight"				"2"
+			"class_restricted"      "0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_1897"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_toz"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_gwr98"
+			}
+			"viewmodel_attachments"
+			{
+				"Flashlight_shotgun_sec"
+				{
+					"model"					"models/weapons/upgrades/a_flashlight_sec_shotgun.mdl"
+					"weapons"
+					{
+						"weapon"				"weapon_m590"
+						"weapon"				"weapon_m40a1"
+						"weapon"				"weapon_1897"
+					}
+				}
+				"Flaslight_shotgun_ins"
+				{
+					"model"					"models/weapons/upgrades/a_flashlight_ins_shotgun.mdl"
+					"Main"					"1"			
+					"weapons"
+					{
+						"weapon"			"weapon_toz"
+						"weapon"			"weapon_mosin"
+						"weapon"			"weapon_gwr98"
+					}	
+				}
+			}
+		}
+		"magazine_extended_pistol"
+		{
+			"class_restricted"		"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_makarov"
+				"weapon"				"weapon_m45"
+				"weapon"				"weapon_m1911"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"magazine_15_1911"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_1911_15.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_m1911"
+					}
+				}
+				
+				"magazine_15_m45"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_m45_15.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_m45"
+					}
+				}
+				
+				"magazine_15_makarov"
+				{
+					"Act_Suffix"		"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_makarov_15.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_makarov"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"magazine_15_1911"
+				{
+					"model"				"models/weapons/upgrades/w_magazine_1911_15.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_m1911"
+					}
+				}
+				
+				"magazine_15_m45"
+				{
+					"model"				"models/weapons/upgrades/w_magazine_m45_15.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_m45"
+					}
+				}
+				
+				"magazine_15_makarov"
+				{
+					"model"				"models/weapons/upgrades/w_magazine_makarov_15.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_makarov"
+					}
+				}
+			}
+		}
+		"siderail_flashlight_pistol"
+		{
+			"import"				"base_flashlight_pistol"
+			"upgrade_cost"		    "1"
+			"weight"				"3"
+			"class_restricted"      "0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_m45"
+				"weapon"                "weapon_makarov"
+				"weapon"                "weapon_m9"
+			}
+			"viewmodel_attachments"
+			{
+				"flashlight_m9"
+				{
+					"model"					"models/weapons/upgrades/a_flashlight_m9.mdl"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"			"weapon_m9"
+					}
+				}
+
+				"flashlight_mak"
+				{
+					"model"					"models/weapons/upgrades/a_flashlight_mak.mdl"
+					"Main"					"1"
+
+					"excluded_weapons"
+					{
+						"weapon"			"weapon_m9"
+					}
+				}
+			}
+		}
+		"siderail_lasersight_pistol"
+		{
+			"import"					"base_lasersight_pistol"
+			"upgrade_cost"				"2"
+			"class_restricted"			"0"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_makarov"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_m45"
+			}
+			"viewmodel_attachments"
+			{
+				"laser_m9"
+				{
+					"model"					"models/weapons/upgrades/a_laser_m9.mdl"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"			"weapon_m9"
+					}
+				}
+
+				"laser_mak"
+				{
+					"model"					"models/weapons/upgrades/a_laser_mak.mdl"
+					"Main"					"1"
+
+					"excluded_weapons"
+					{
+						"weapon"			"weapon_m9"
+					}
+				}
+			}
+		}
+		"underbarrel_foregrip_ins2"
+		{
+			"import"					"base_foregrip"
+			"class_restricted"		"0"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_toz"
+			}
+			"viewmodel_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/a_foregrip_ins2.mdl"
+					"Gesture"				"delta_foregrip"
+					"ActSuffix"				"_FOREGRIP"
+					
+					"scales"
+					{
+						"weapon_toz"				"0.5"
+					}
+				}
+			}
+			"world_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/w_ins_foregrip.mdl"
+				}
+			}
+		}
+		"barrel_silencer_sec1"
+		{
+			"import"					"base_silencer"
+			"upgrade_cost"				"2"
+			"class_restricted"			"0"
+			"length"					"12"
+			"weight"					"15"
+			"team_access"				"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m40a1"
+				// insurgent weapons this can show up on
+				// for coop
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_gwr98"
+			}
+			"viewmodel_attachments"
+			{
+				"Suppressor"
+				{
+					"model"					"models/weapons/upgrades/a_suppressor_sec.mdl"
+					
+					"scales"
+					{
+						"weapon_m40a1"				"0.7"
+						"weapon_mosin"				"0.7"
+						"weapon_gwr98"				"0.7"
+					}
+				}
+			}
+			"world_attachments"
+			{
+				"Silencer"
+				{
+					"model"					"models/weapons/upgrades/w_sil_sec1.mdl"
+				}
+			}
+		}
+		
+		"barrel_silencer_heavy"
+		{
+			"import"					"base_silencer"
+			"upgrade_cost"				"2"
+			"class_restricted"			"0"
+			"weight"					"20"
+			"length"					"12"
+			"team_access"				"security, insurgent"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_1897"
+				"weapon"				"weapon_toz"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"Suppressor_SG"
+				{
+					"model"					"models/weapons/upgrades/a_suppressor_12ga.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_m590"
+						"weapon"				"weapon_toz"
+						"weapon"				"weapon_1897"
+					}
+					"scales"
+					{
+						"weapon_m590"				"0.9"
+						"weapon_1897"				"0.9"
+						"weapon_toz"				"0.9"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"Silencer_AKM"
+				{
+					"model"					"models/weapons/upgrades/w_sil_ins1.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_toz"
+					}
+				}
+				
+				"Silencer_SG"
+				{
+					"model"					"models/weapons/upgrades/w_sil_sec1.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_1897"
+						"weapon"				"weapon_m590"
+					}
+				}
+
+			}
+		}
+		"barrel_silencer_pistol"
+		{
+			"import"				"base_silencer"
+			"upgrade_cost"				"2"
+			"weight"					"10"
+			"class_restricted"			"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_m45"
+				"weapon"                "weapon_makarov"
+				"weapon"                "weapon_m9"
+			}
+			"viewmodel_attachments"
+			{
+				
+				"Suppressor"
+				{
+					"model"					"models/weapons/upgrades/a_suppressor_pistol.mdl"
+					"weapons"
+					{
+						"weapon"				"weapon_m45"
+						"weapon"				"weapon_m1911"
+						"weapon"                "weapon_makarov"
+				        "weapon"                "weapon_m9"
+					}
+					"scales"
+					{
+						"weapon_m9"				    "0.95"
+						"weapon_makarov"            "0.95"
+					}
+				}
+			}
+			"world_attachments"
+			{
+				"Silencer"
+				{
+					"model"					"models/weapons/upgrades/w_sil_pistol.mdl"
+				}
+			}
+		}
+		"sw1917_speedloader"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"class_restricted"			"0"
+			"team_access"				"security, insurgent"
+
+			"print_name"				"#weapon_upgrade_speedloader"
+			"print_desc"				"#weapon_upgrade_speedloader_desc"
+
+			// some magic to disable single reload
+			"weapon_abilities"			"speedreload"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sw1917"
+			}
+
+			"viewmodel_attachments"
+			{
+				"speedloader_sw1917"
+				{
+					"ActSuffix"			"_SPEED"
+					"model"				"models/weapons/upgrades/a_clips_sw1917.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_sw1917"
+					}
+				}
+			}
+		}
+		"magazine_speedloader_webley"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"class_restricted"			"0"
+			"team_access"				"security, insurgent"
+
+			"print_name"				"#weapon_upgrade_speedloader"
+			"print_desc"				"#weapon_upgrade_speedloader_desc"
+
+			// some magic to disable single reload
+			"weapon_abilities"			"speedreload"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_webley"
+			}
+
+			"viewmodel_attachments"
+			{
+				"speedloader_sw1917"
+				{
+					"ActSuffix"			"_SPEED"
+					"model"				"models/weapons/upgrades/a_speedloader_webley.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_webley"
+					}
+				}
+			}
+		}
+		"underbarrel_bipod"
+		{
+			"import"				    "base_bipod"
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			"team_access"				"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_gwr98"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"Bipod_M40"
+				{
+					"model"					"models/weapons/upgrades/a_bipod_m40.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_m40a1"
+					}
+				}
+
+				"Bipod_Mosin"
+				{
+					"model"					"models/weapons/upgrades/a_bipod_mosin.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_mosin"
+						"weapon"				"weapon_gwr98"
+					}
+				}
+			}
+			"world_attachments"
+			{
+				"underbarrel_bipod_m40"
+				{
+					"model"					"models/weapons/upgrades/w_bipod_m40.mdl"
+
+					"weapons"
+					{
+						"weapon"				"weapon_m40a1"
+					}
+				}
+
+				"underbarrel_bipod_mosin"
+				{
+					"model"					"models/weapons/upgrades/w_bipod_mosin.mdl"
+
+					"weapons"
+					{
+						"weapon"				"weapon_mosin"
+						"weapon"				"weapon_gwr98"
+					}
+				}
+			}
+		}
+
+		"magazine_stripper_clips"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"class_restricted"			"0"
+			"team_access"				"security, insurgent"
+			
+			"print_name"				"#magazine_stripper_clips"
+			"print_desc"				"#magazine_stripper_clips_desc"
+			
+			// some magic to disable single reload
+			
+			"weapon_abilities"			"stripperclip"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_enfield"
+				"weapon"				"weapon_k98k"
+				"weapon"				"weapon_springfield"
+			}
+
+			"viewmodel_attachments"
+			{
+				"magazine_clip"
+				{
+					"ActSuffix"			"_CLIP"
+				}
+				"clip_enfield"
+				{
+					"model"				"models/weapons/upgrades/a_enfield_stripper_clip.mdl"
+					"weapons"
+					{
+						"weapon"		"weapon_enfield"
+					}
+				}
+				"clip_kar98k"
+				{
+					"model"				"models/weapons/upgrades/a_kar98k_stripper_clip.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_k98k"
+					}
+				}
+				"clip_springfield"
+				{
+					"model"				"models/weapons/upgrades/a_springfield_stripper_clip.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_springfield"
+					}
+				}
+			}			
+		}
+
+		// ========================================
+		// KAR98K SCOPES
+		// ========================================	
+
+		"optic_scope_4x_k98"
+		{
+			"import"					"base_optic_rail"
+			"print_name"				"#weapon_upgrade_scope_4x"
+			"print_desc"				"#weapon_upgrade_scope_4x_desc"
+			"class_restricted"			"0"
+			"upgrade_cost"				"2"
+			"team_access"				"security, insurgent"
+			
+			"sway"
+			{
+				"sway_radius_frac"		"1.8"
+				"sway_speed_frac"		"1.9"
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_k98k"
+			}
+			
+			"excluded_upgrades"
+			{
+				"0"						"magazine_stripper_clips"
+			}
+			
+			"viewmodel_attachments"
+			{
+				
+				"4xscope_k98"
+				{
+					"model"					"models/weapons/upgrades/a_optic_kar98k_4x.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope_4x"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_k98k"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+
+			}
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"15"
+				"fov_wpn_ironsight"			"37"
+				"fov_wpn_focus"				"43"
+				
+				"weapon_k98k"
+				{
+					"fov_wpn_scope"				"15"
+					"fov_wpn_ironsight"			"44"
+					"fov_wpn_focus"				"47"
+				}				
+			}
+		}
+
+		"optic_scope_7x_k98"
+		{
+			"import"					"base_optic_rail"
+			"print_name"				"#weapon_upgrade_scope_7x"
+			"print_desc"				"#weapon_upgrade_scope_7x_desc"
+			"class_restricted"			"1"
+			"upgrade_cost"				"3"
+			"team_access"				"security, insurgent"
+			
+			"sway"
+			{
+				"sway_radius_frac"		"1.8"
+				"sway_speed_frac"		"1.9"
+			}
+			
+			"weapon_mods"
+			{
+				
+				"weapon_k98k"
+				{
+					"sway"
+					{
+						"sway_amount_focus_frac"		"0.25"
+						"sway_speed_focus_frac"			"0.20"
+						"sway_radius_crouch_frac"		"0.75"
+						"sway_radius_prone_frac"		"0.50"
+					}
+				}
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_k98k"
+			}
+			
+			"excluded_upgrades"
+			{
+				"0"						"magazine_stripper_clips"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"7xscope_k98"
+				{
+					"model"					"models/weapons/upgrades/a_optic_kar98k.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_k98k"
+					}
+				}		
+			}
+			
+			"world_attachments"
+			{				
+				"Scope_kar98"
+				{
+					"model"					"models/weapons/upgrades/w_optic_kar98k.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_k98k"
+					}
+				}
+			}
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"10"
+				"fov_wpn_ironsight"			"37"
+				"fov_wpn_focus"				"43"
+			
+				"weapon_k98k"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"61"
+					"fov_wpn_focus"				"58"
+				}			
+			}
+		}
+		
+		// ========================================
+		// ENFIELD SCOPES
+		// ========================================	
+		
+		"optic_scope_4x_enfield"
+		{
+			"import"					"base_optic_rail"
+			"print_name"				"#weapon_upgrade_scope_4x"
+			"print_desc"				"#weapon_upgrade_scope_4x_desc"
+			"class_restricted"			"0"
+			"upgrade_cost"				"2"
+			"team_access"				"security, insurgent"
+			
+			"sway"
+			{
+				"sway_radius_frac"		"1.8"
+				"sway_speed_frac"		"1.9"
+			}
+			"weapon_mods"
+			{
+				"weapon_g43"
+				{
+					"sway"
+					{
+						"sway_amount_focus_frac"		"0.25"
+						"sway_speed_focus_frac"			"0.20"
+						"sway_radius_crouch_frac"		"0.75"
+						"sway_radius_prone_frac"		"0.50"
+					}
+				}
+			}
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_enfield"
+			}
+			
+			"excluded_upgrades"
+			{
+				"0"						"magazine_stripper_clips"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"4xscope_enfield"
+				{
+					"model"					"models/weapons/upgrades/a_optic_enfield.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_enfield"
+					}
+				}			
+			}
+			
+			"world_attachments"
+			{			
+				"Scope_enfield"
+				{
+					"model"					"models/weapons/upgrades/w_optic_enfield.mdl"
+					"weapons"
+					{
+						"weapon"				"weapon_enfield"
+					}
+				}			
+				
+			}
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"15"
+				"fov_wpn_ironsight"			"37"
+				"fov_wpn_focus"				"43"
+				
+				"weapon_enfield"
+				{
+					"fov_wpn_scope"				"15"
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"61"
+				}
+			}
+		}
+		"optic_scope_7x_enfield"
+		{
+			"import"					"base_optic_rail"
+			"print_name"				"#weapon_upgrade_scope_7x"
+			"print_desc"				"#weapon_upgrade_scope_7x_desc"
+			"class_restricted"			"1"
+			"upgrade_cost"				"3"
+			"team_access"				"security, insurgent"
+			
+			"sway"
+			{
+				"sway_radius_frac"		"1.8"
+				"sway_speed_frac"		"1.9"
+			}
+			
+			"weapon_mods"
+			{	
+					
+				"weapon_enfield"
+				{
+					"sway"
+					{
+						"sway_amount_focus_frac"		"0.25"
+						"sway_speed_focus_frac"			"0.20"
+						"sway_radius_crouch_frac"		"0.75"
+						"sway_radius_prone_frac"		"0.50"
+					}
+				}
+						
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_enfield"
+			}
+			
+			"excluded_upgrades"
+			{
+				"0"						"magazine_stripper_clips"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"7xscope_enfield"
+				{
+					"model"					"models/weapons/upgrades/a_optic_enfield_7x.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope_7x"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_enfield"
+					}
+				}				
+			}
+			
+			"world_attachments"
+			{				
+				"Scope_enfield"
+				{
+					"model"					"models/weapons/upgrades/w_optic_enfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_enfield"
+					}
+				}
+			}
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"10"
+				"fov_wpn_ironsight"			"37"
+				"fov_wpn_focus"				"43"
+				
+				"weapon_enfield"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"53"
+				}
+				
+			}
+		}
+		
+		// ========================================
+		// SPRINGFIELD SCOPES
+		// ========================================	
+		"optic_scope_4x_springfield"
+		{
+			"import"					"base_optic_rail"
+			"print_name"				"#weapon_upgrade_scope_4x"
+			"print_desc"				"#weapon_upgrade_scope_4x_desc"
+			"class_restricted"			"0"
+			"upgrade_cost"				"2"
+			"team_access"				"security, insurgent"
+			
+			"sway"
+			{
+				"sway_radius_frac"		"1.8"
+				"sway_speed_frac"		"1.9"
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_springfield"
+			}
+			
+			"excluded_upgrades"
+			{
+				"0"						"magazine_stripper_clips"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"4xscope_springfield"
+				{
+					"model"					"models/weapons/upgrades/a_optic_springfield.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_springfield"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"Scope_springfield"
+				{
+					"model"					"models/weapons/upgrades/w_optic_springfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_springfield"
+					}
+				}
+			}
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"15"
+				"fov_wpn_ironsight"			"37"
+				"fov_wpn_focus"				"43"
+				
+				"weapon_springfield"
+				{
+					"fov_wpn_scope"				"15"
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"49"
+				}			
+			}
+		}
+		
+		"optic_scope_7x_springfield"
+		{
+			"import"					"base_optic_rail"
+			"print_name"				"#weapon_upgrade_scope_7x"
+			"print_desc"				"#weapon_upgrade_scope_7x_desc"
+			"class_restricted"			"1"
+			"upgrade_cost"				"3"
+			"team_access"				"security, insurgent"
+			
+			"sway"
+			{
+				"sway_radius_frac"		"1.8"
+				"sway_speed_frac"		"1.9"
+			}
+			
+			"weapon_mods"
+			{
+				"weapon_springfield"
+				{
+					"sway"
+					{
+						"sway_amount_focus_frac"		"0.25"
+						"sway_speed_focus_frac"			"0.20"
+						"sway_radius_crouch_frac"		"0.75"
+						"sway_radius_prone_frac"		"0.50"
+					}
+				}
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_springfield"
+			}
+			
+			"excluded_upgrades"
+			{
+				"0"						"magazine_stripper_clips"
+			}
+			
+			"viewmodel_attachments"
+			{
+				
+				"7xscope_springfield"
+				{
+					"model"					"models/weapons/upgrades/a_optic_springfield_7x.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope_7x"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_springfield"
+					}
+				}		
+			}
+			
+			"world_attachments"
+			{				
+				"Scope_springfield"
+				{
+					"model"					"models/weapons/upgrades/w_optic_springfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_springfield"
+					}
+				}
+			}
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"10"
+				"fov_wpn_ironsight"			"37"
+				"fov_wpn_focus"				"43"
+				
+				"weapon_springfield"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"43"
+					"fov_wpn_focus"				"46"
+				}
+			}
+		}
+	}
+}
+
