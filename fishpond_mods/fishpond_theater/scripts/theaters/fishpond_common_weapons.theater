@@ -42,21 +42,25 @@
 		// ========================================
 		"weapon_kabar"
 		{
+			"class_restricted"          "0"
 			"holster_speed"             "12"
 			"melee"
 			{
 				"MeleeRange"				"75"
 				"MeleeDamage"				"100"
 			}
+			"team_access"				"security, insurgent"
 		}
 		"weapon_gurkha"
 		{
+			"class_restricted"          "0"
 			"holster_speed"             "12"
 			"melee"
 			{
 				"MeleeRange"				"75"
 				"MeleeDamage"				"100"
 			}
+			"team_access"				"security, insurgent"
 		}
 		// ========================================
 		// EXPLOSIVES

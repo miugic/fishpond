@@ -20,6 +20,7 @@
 				"gear"			    "sec_chest_rig"
 				"weapon"			"weapon_m590"
 				"weapon"            "weapon_welrod"
+				"weapon"            "weapon_kabar"
 			}
 			"allowed_items"
 			{
@@ -46,6 +47,7 @@
 				"weapon"            "weapon_m1911"
 				"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_m1911"
+				"weapon"            "weapon_kabar"
 			}
 			"allowed_items"
 			{
@@ -72,6 +74,7 @@
 				"weapon"            "weapon_welrod"
 				"weapon"			"weapon_k98k"
 				"weapon_upgrade"    "ammo_ap_mosin"
+				"weapon"            "weapon_kabar"
 			}
 			"allowed_items"
 			{
@@ -98,6 +101,7 @@
 				"weapon"            "weapon_m40a1"
 				"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_m40a1"
+				"weapon"            "weapon_kabar"
 			}
 			"allowed_items"
 			{
@@ -146,6 +150,7 @@
 				"gear"			    "ins_chest_rig"
 				"weapon"			"weapon_m590"
 				"weapon"            "weapon_welrod"
+				"weapon"            "weapon_gurkha"
 			}
 			"allowed_items"
 			{
@@ -185,6 +190,7 @@
 				"weapon"            "weapon_m1911"
 				"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_m1911"
+				"weapon"            "weapon_gurkha"
 			}
 			"allowed_items"
 			{
@@ -224,6 +230,7 @@
 				"weapon"            "weapon_k98k"
 				"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_mosin"
+				"weapon"            "weapon_gurkha"
 			}
 			"allowed_items"
 			{
@@ -262,6 +269,7 @@
 				"weapon"            "weapon_gwr98"
 				"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_mosin"
+				"weapon"            "weapon_gurkha"
 			}
 			"allowed_items"
 			{
