@@ -52,6 +52,7 @@
 498252536 //invasion_coop_ws
 1889010299 //de_city_checkpoint_5
 862298845 //bb_valleyofthekings_b8_ws
+1988310157 //iron_express
 
 /* trash */
 1594256177 //counter-attack_empyrean

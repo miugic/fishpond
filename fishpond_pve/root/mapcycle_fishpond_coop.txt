@@ -49,3 +49,4 @@ bb_gauntlet_b9_ws checkpoint
 invasion_coop_ws checkpoint
 de_city_checkpoint_5 checkpoint
 bb_valleyofthekings_b8_ws checkpoint
+iron_express checkpoint
