@@ -9,7 +9,7 @@
 			"kill"					    "1"
 			"kill_offensive"			"1"
 			"kill_defensive"			"1"
-			"kill_headshot_bonus"		"1"
+			"kill_headshot_bonus"		"2"
 			"kill_savior"				"1"
 			"kill_bonus_domination"		"0"
 			"kill_bonus_revenge"		"0"
@@ -21,7 +21,7 @@
 			"obj_reset_tick"			"0"	// defending points given every 10%
 			"cache_destroyed"			"0"
 			"intel_captured"			"0"
-			"vip_killed"				"2"
+			"vip_killed"				"3"
 			"safehouse_secured"			"0"
 			"wave_complete"				"0"
 		}

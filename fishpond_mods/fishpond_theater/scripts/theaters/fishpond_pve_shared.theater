@@ -12,192 +12,23 @@
 		// ========================================
 		// KNIVES
 		// ========================================
-		"weapon_brassknuckles"
-		{
-			"import"					"weapon_base"
-			"weapon_class"				"melee"
-			"weapon_type"				"melee"
-			"print_name"				"#weapon_brassknuckles"
-			"print_desc"				"#weapon_brassknuckles_desc"
-			"view_model"				"models/weapons/v_brassknuckles.mdl"
-			"world_model"				"models/weapons/w_brassknuckles.mdl"
-			"weapon_slot"				"melee"
-			"act_table"					"none"
-			"weapon_weight"				"0"
-			"weapon_cost"				"0"
-			"class_restricted"			"0"
-			"barrel_length"				"-1"
-			"holster_speed"             "12"
-			
-			"ammo_clip"
-			{
-				"ammo_type"				"invalid"
-				"clip_max_rounds"		"-1"	// no clips
-				"clip_default"			"0"
-			}
-			
-			"fov"
-			{
-				"fov_wpn_default"			"60"
-			}
-			
-			"sounds"
-			{
-				"shot_single"			"Weapon_BrassKnuckles.Melee"
-				"melee_hit"				"Weapon_BrassKnuckles.HitFlesh"
-				"melee_hit_world"		"Weapon_BrassKnuckles.HitWorld"
-			}
-			
-			"melee"
-			{
-				"MeleeRange"				"68"
-				"MeleeDamage"				"50"
-				"MeleeDamageBehindBonus"	"200"
-				"MeleeDamageType"			"DMG_SLASH"
-				"MeleeWeaponIdleTime"		"2"
-				"SwingAttacks"
-				{
-					"slash1"
-					{
-						"Activity"				"ACT_VM_HITCENTER"
-						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
-						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
-						"StartTime"				"0.1"
-						"EndTime"				"0.34"
-						"Duration"				"0.6"
-						"StartDirection"		"E"
-						"EndDirection"			"W"
-						"ForceDirection"		"15 -40 0"
-					}
-				}
-			}
-			
-			"recoil"
-			{
-				"recoil_rest_rate"			"5"
-				"recoil_rest_delay"			"0.1"
-			}
-			
-			"kitui_offset"
-			{
-				"position"					"12 0 0"
-			}
-			"team_access"				"security, insurgent"
-		}
-
 		"weapon_kabar"
 		{
-			"weapon_cost"				"0"
-			"class_restricted"			"0"
-			"weapon_slot"				"melee"
-			"print_name"				"#weapon_kabar_fp"
-			"print_desc"				"#weapon_kabar_fp_desc"
 			"melee"
 			{
 				"MeleeRange"				"75"
-				"MeleeDamage"				"80"
+				"MeleeDamage"				"100"
 			}
-			"kitui_offset"
-			{
-				"position"				"55 0 0"
-				"angle"					"40 45 10"
-			}
-			"team_access"				"security, insurgent"
 		}
 
 		"weapon_gurkha"
 		{
-			"weapon_cost"				"0"
-			"class_restricted"			"0"
-			"weapon_slot"				"melee"
-			"print_name"				"#weapon_gurkha_fp"
-			"print_desc"				"#weapon_gurkha_fp_desc"
 			"melee"
 			{
-				"MeleeRange"				"80"
-				"MeleeDamage"				"99"
-			}
-			"kitui_offset"
-			{
-				"position"				"55 0 0"
-				"angle"					"40 45 10"
-			}
-			"team_access"				"security, insurgent"
-		}
-
-		"weapon_katana"
-		{
-			"import"					"weapon_base"
-			"weapon_class"				"melee"
-			"weapon_type"				"melee"
-			"print_name"				"#weapon_katana"
-			"print_desc"				"#weapon_katana_desc"
-			"view_model"				"models/weapons/v_katana.mdl"
-			"world_model"				"models/weapons/w_katana.mdl"
-			"weapon_slot"				"melee"
-			"act_table"					"knife"
-			"weapon_weight"				"0"
-			"weapon_cost"				"0"
-			"class_restricted"			"0"
-			"barrel_length"				"-1"
-			
-			"ammo_clip"
-			{
-				"ammo_type"				"invalid"
-				"clip_max_rounds"		"-1"	// no clips
-				"clip_default"			"0"
-			}
-			
-			"sounds"
-			{
-				"shot_single"			"Weapon_Knife.Single"
-				"melee_hit"				"Weapon_Knife.Melee_Hit"
-				"melee_hit_world"		"Weapon_Knife.Melee_HitWorld"
-			}
-			
-			"fov"
-			{
-				"fov_wpn_default"			"60"
-			}
-			
-			"melee"
-			{
-				"MeleeRange"				"85"
+				"MeleeRange"				"75"
 				"MeleeDamage"				"100"
-				"MeleeDamageBehindBonus"	"200"
-				"MeleeDamageType"			"DMG_SLASH"
-				"MeleeWeaponIdleTime"		"2"
-				"SwingAttacks"
-				{
-					"slash1"
-					{
-						"Activity"				"ACT_VM_HITCENTER"
-						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
-						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
-						"StartTime"				"0.1"
-						"EndTime"				"0.34"
-						"Duration"				"0.9"
-						"StartDirection"		"W"
-						"EndDirection"			"E"
-						"ForceDirection"		"15 -40 0"
-					}
-				}
 			}
-			
-			"recoil"
-			{
-				"recoil_rest_rate"			"5"
-				"recoil_rest_delay"			"0.1"
-			}
-			
-			"kitui_offset"
-			{
-				"position"				"55 0 0"
-				"angle"					"40 45 10"
-			}
-			"team_access"				"security, insurgent"
 		}
-		
 		
 		// ========================================
 		// PISTOLS
@@ -307,57 +138,6 @@
 				"HITGROUP_RIGHTLEG"			"0.01"
 			}
 			"team_access"				""
-		}
-
-		// ========================================
-		// FAKE KNIVES
-		// ========================================
-		"weapon_brassknuckles_fake"
-		{
-			"model"						"models/weapons/w_brassknuckles.mdl"
-			"gear_slot"					"accessory"
-			"gear_cost"					"0"
-			"print_name"				"#weapon_brassknuckles"
-			"print_desc"				"#weapon_brassknuckles_desc"
-			"gear_weight"				"0"
-			//"entity"					"nvg"
-			"team_access"				"security, insurgent"
-		}
-
-		"weapon_kabar_fake"
-		{
-			"model"						"models/weapons/w_marinebayonet.mdl"
-			"gear_slot"					"accessory"
-			"gear_cost"					"1"
-			"print_name"				"#weapon_kabar_fp"
-			"print_desc"				"#weapon_kabar_fp_desc"
-			"gear_weight"				"0"
-			//"entity"					"nvg"
-			"team_access"				"security, insurgent"
-		}
-
-		"weapon_gurkha_fake"
-		{
-			"model"						"models/weapons/w_gurkha.mdl"
-			"gear_slot"					"accessory"
-			"gear_cost"					"2"
-			"print_name"				"#weapon_gurkha_fp"
-			"print_desc"				"#weapon_gurkha_fp_desc"
-			"gear_weight"				"0"
-			//"entity"					"nvg"
-			"team_access"				"security, insurgent"
-		}
-
-		"weapon_katana_fake"
-		{
-			"model"						"models/weapons/w_katana.mdl"
-			"gear_slot"					"accessory"
-			"gear_cost"					"3"
-			"print_name"				"#weapon_katana"
-			"print_desc"				"#weapon_katana_desc"
-			"gear_weight"				"0"
-			//"entity"					"nvg"
-			"team_access"				"security, insurgent"
 		}
 	}
 }
