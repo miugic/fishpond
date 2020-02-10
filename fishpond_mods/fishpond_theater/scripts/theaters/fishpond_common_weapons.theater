@@ -43,10 +43,20 @@
 		"weapon_kabar"
 		{
 			"holster_speed"             "12"
+			"melee"
+			{
+				"MeleeRange"				"75"
+				"MeleeDamage"				"100"
+			}
 		}
 		"weapon_gurkha"
 		{
 			"holster_speed"             "12"
+			"melee"
+			{
+				"MeleeRange"				"75"
+				"MeleeDamage"				"100"
+			}
 		}
 		// ========================================
 		// EXPLOSIVES
