@@ -5,9 +5,9 @@
 /* OTHERS */
 1379716589 //Maps CPSetup.txt Fix 修复地图模式不正确
 /* UI */
-1432912836 //Vote Screen for Cooperation mode Map Collection
 1353915069 //bm_tacticalmaps
 1867199309 //Masterchief Vote Screen
+1907465396 //Masterchief Vote Screen 2
 1876212727 //Masterchief Tactical Maps
 /* MAPS */
 1571676579 //de_prodigy_coop
@@ -46,7 +46,6 @@
 1646016078 //gg_mario_dtk_v1_d_ins
 1655752799 //phantomfury
 1655754862 //ins_mosul
-1771428118 //karbala_dusk
 1837248149 //de_survivor_css_ins_b
 862973282 //bb_gauntlet_b9_ws
 498252536 //invasion_coop_ws
@@ -160,3 +159,4 @@
 1501827880 //l4d_ga_b2_day
 1180002850 //nomercy_coopv1
 939873335 //shop_invasion_coop_b2
+1771428118 //karbala_dusk

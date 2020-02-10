@@ -43,7 +43,6 @@ dust_coop_v1_1 checkpoint
 gg_mario_dtk_v1_d_ins checkpoint
 phantomfury checkpoint
 ins_mosul checkpoint
-karbala_dusk checkpoint
 de_survivor_css_ins_b checkpoint
 bb_gauntlet_b9_ws checkpoint
 invasion_coop_ws checkpoint
@@ -52,3 +51,4 @@ bb_valleyofthekings_b8_ws checkpoint
 iron_express checkpoint
 car_parking_ins_b checkpoint
 ins_arcate_pb1 checkpoint
+insz_favela checkpoint
