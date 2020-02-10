@@ -47,8 +47,6 @@ de_survivor_css_ins_b checkpoint
 bb_gauntlet_b9_ws checkpoint
 invasion_coop_ws checkpoint
 de_city_checkpoint_5 checkpoint
-bb_valleyofthekings_b8_ws checkpoint
 iron_express checkpoint
-car_parking_ins_b checkpoint
 ins_arcate_pb1 checkpoint
 insz_favela checkpoint
