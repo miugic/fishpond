@@ -53,6 +53,33 @@
 1988310157 //iron_express
 1908949684 //ins_arcate_pb1
 1905422214 //insz_favela
+650616844 //estates_b4
+841479518 //khe_sanh
+863961825 //hastings
+878666586 //la_drang
+1958926230 //trench_warfare
+1981470492 //sadrcity_kuma
+1991948896 //kuma_friends_sadrcity2
+1992186854 //kuma_clan_kerbala
+1993153832 //kuma_clan_baghdadsurge
+1999552487 //kuma_clan_usaf
+1999783010 //kuma_clan_sadrcity1
+2001415797 //kuma_clan_industrial
+2002811603 //kuma_clan_marketsquare
+2002951663 //kuma_clan_i8newyork
+2003450635 //kw2_085_phantomfury
+2003794171 //kuma_clan_saigonembassy
+2004852194 //kuma_clan_embassy3
+2006668235 //foxhole2
+2005487244 //kuma_clan_bank
+1994067191 //as_oilrig_v2_ins
+1995558411 //dm_nacht_der_untoten_v1_ins
+2005438640 //cod_nuketown_a4_ikazuchi
+1994711059 //as_tundra_v3_ins
+2010282416 //ins_tosca_v1
+2010310686 //Tosca assets
+2011556936 //kuma_clan_anccity
+2004130689 //kuma_clan_foxhole
 
 /* trash */
 1594256177 //counter-attack_empyrean
@@ -160,3 +187,5 @@
 1771428118 //karbala_dusk
 862298845 //bb_valleyofthekings_b8_ws
 1943396608 //car_parking_ins_b
+1998241876 //kuma_clan_kandahar
+1998467836 //kuma_clan_kandahar2
