@@ -59,7 +59,6 @@
 878666586 //la_drang
 1958926230 //trench_warfare
 1994067191 //as_oilrig_v2_ins
-1995558411 //dm_nacht_der_untoten_v1_ins
 2005438640 //cod_nuketown_a4_ikazuchi
 1994711059 //as_tundra_v3_ins
 2010282416 //ins_tosca_v1

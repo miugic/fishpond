@@ -55,7 +55,6 @@ khe_sanh checkpoint
 hastings checkpoint
 la_drang checkpoint
 trench_warfare checkpoint
-kw2_085_phantomfury checkpoint
 as_oilrig_v2_ins checkpoint
 dm_nacht_der_untoten_v1_ins checkpoint
 cod_nuketown_a4_ikazuchi checkpoint
