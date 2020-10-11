@@ -44,20 +44,6 @@ public Action Event_PlayerHurt(Event event, const char[] name, bool dontBroadcas
 			if(event.GetInt("health") == 0)
 			{
 				CreateTimer(0.1, Timer_PlayKillSound, event.GetInt("attacker"), TIMER_FLAG_NO_MAPCHANGE);
-				// if(event.GetInt("hitgroup") == HITGROUP_HEAD)
-				// {
-				// 	int attackerHealth = GetClientHealth(attacker);
-				// 	if(attackerHealth <= 80) {
-				// 		PrintHintText(attacker, "Headshot! HP: %d -> %d", attackerHealth, attackerHealth+20);
-				// 		attackerHealth = attackerHealth + 20;
-				// 	}else if(attackerHealth < 100){
-				// 		PrintHintText(attacker, "Headshot! HP: %d -> %d", attackerHealth, 100);
-				// 		attackerHealth = 100;
-				// 	}else{
-				// 		PrintHintText(attacker, "Headshot! HP: %d", attackerHealth);
-				// 	}
-				// 	SetEntityHealth(attacker, attackerHealth);
-				// }
 			}
 		}
 		

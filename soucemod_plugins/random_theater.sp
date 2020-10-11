@@ -28,8 +28,8 @@ public void UpdateTheater()
     int randomInt = GetRandomInt(1,2);
     if(randomInt == 1)
     {
-        SetConVarString(cvarTheaterOverride,"fishpond_pve_sec",false,false);
+        SetConVarString(cvarTheaterOverride,"fishpond_pve_sec",true,false);
     }else{
-        SetConVarString(cvarTheaterOverride,"fishpond_pve_ins",false,false);
+        SetConVarString(cvarTheaterOverride,"fishpond_pve_ins",true,false);
     }
 }

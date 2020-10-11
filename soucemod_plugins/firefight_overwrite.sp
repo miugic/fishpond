@@ -30,7 +30,7 @@ int gTkCountMax;
 int gTkerId;
 int gTkCount[MAXPLAYERS+1];
 
-bool gIsTkerApologized[MAXPLAYERS+1];
+// bool gIsTkerApologized[MAXPLAYERS+1];
 
 float gRespawnTime;
 float gProtectTime;
@@ -103,7 +103,7 @@ public void ClearClientTkerStates(int client)
 	if(client > 0 && client <= MaxClients)
 	{
 		gTkCount[client] = 0;
-		gIsTkerApologized[client] = false;
+		// gIsTkerApologized[client] = false;
 	}
 }
 
@@ -240,11 +240,11 @@ public Action Event_PlayerDeath(Event event, const char[] name, bool dontBroadca
 		{
 			//Delay tker's respawn
 			gTkerId = 0;
-			gIsTkerApologized[victimClient] = false;
+			// gIsTkerApologized[victimClient] = false;
 			int time = RoundToCeil(GetClientTime(victimClient));
 			int bigParam = time * 10000 + userid;
 			CreateTimer(1.0, Timer_PunishTker, bigParam, TIMER_REPEAT | TIMER_FLAG_NO_MAPCHANGE);
-			CreateTimer(1.0, Timer_ShowApologizeMenu, userid, TIMER_FLAG_NO_MAPCHANGE);
+			// CreateTimer(1.0, Timer_ShowApologizeMenu, userid, TIMER_FLAG_NO_MAPCHANGE);
 
 			return Plugin_Continue;
 		}else{
@@ -320,10 +320,10 @@ public Action Timer_PunishTker(Handle timer,int bigParam)
 	int client = GetClientOfUserId(userid);
 	if(IsValidPlayer(client))
 	{
-		if(gIsTkerApologized[client])
-		{
-			return Plugin_Stop;
-		}
+		// if(gIsTkerApologized[client])
+		// {
+		// 	return Plugin_Stop;
+		// }
 		int leftTime = time + RoundToCeil(gTkPunishTime - GetClientTime(client));
 		if(leftTime > 0)
 		{
@@ -339,56 +339,56 @@ public Action Timer_DisableGodMode(Handle timer,int userid)
 {
 	DisableGodMode(userid);
 }
-public Action Timer_ShowApologizeMenu(Handle timer,int userid)
-{
-	int client = GetClientOfUserId(userid);
+// public Action Timer_ShowApologizeMenu(Handle timer,int userid)
+// {
+// 	int client = GetClientOfUserId(userid);
 
-	Handle menu = CreateMenu(MenuHandler);
-	SetMenuTitle(menu, "Apologize?");
-	AddMenuItem(menu, "option1", "Yes");		
-	SetMenuExitButton(menu, false);
-	DisplayMenu(menu, client, 10);
-}
-public Action Timer_ApologizedRespawn(Handle timer,int bigParam)
-{
-	if(gLoseTeam != NO_TEAM)
-	{
-		return Plugin_Stop;
-	}
-	int time = bigParam / 10000;
-	int userid = bigParam - (time * 10000);
-	int client = GetClientOfUserId(userid);
-	if(IsValidPlayer(client))
-	{
-		int leftTime = time + RoundToCeil(5.0 - GetClientTime(client));
-		if(leftTime > 0)
-		{
-			PrintCenterText(client,"Apologized, respawn in %d", leftTime);
-		}else{
-			RespawnPlayer(userid);
-			return Plugin_Stop;
-		}
-	}
-	return Plugin_Continue;
-}
-public MenuHandler(Handle menu, MenuAction action, int client, int selectedItem)
-{
-	if (action == MenuAction_Select) 
-	{
-		switch (selectedItem)
-		{
-			case 0:
-			{
-				if(IsValidPlayer(client))
-				{
-					gIsTkerApologized[client] = true;
-					int userid = GetClientUserId(client);
-					int time = RoundToCeil(GetClientTime(client));
-					int bigParam = time * 10000 + userid;
-					FakeClientCommand(client, "say sorry");
-					CreateTimer(1.0, Timer_ApologizedRespawn, bigParam, TIMER_REPEAT | TIMER_FLAG_NO_MAPCHANGE);
-				}
-			}
-		}
-	}		
-}
+// 	Handle menu = CreateMenu(MenuHandler);
+// 	SetMenuTitle(menu, "Apologize?");
+// 	AddMenuItem(menu, "option1", "Yes");		
+// 	SetMenuExitButton(menu, false);
+// 	DisplayMenu(menu, client, 10);
+// }
+// public Action Timer_ApologizedRespawn(Handle timer,int bigParam)
+// {
+// 	if(gLoseTeam != NO_TEAM)
+// 	{
+// 		return Plugin_Stop;
+// 	}
+// 	int time = bigParam / 10000;
+// 	int userid = bigParam - (time * 10000);
+// 	int client = GetClientOfUserId(userid);
+// 	if(IsValidPlayer(client))
+// 	{
+// 		int leftTime = time + RoundToCeil(5.0 - GetClientTime(client));
+// 		if(leftTime > 0)
+// 		{
+// 			PrintCenterText(client,"Apologized, respawn in %d", leftTime);
+// 		}else{
+// 			RespawnPlayer(userid);
+// 			return Plugin_Stop;
+// 		}
+// 	}
+// 	return Plugin_Continue;
+// }
+// public MenuHandler(Handle menu, MenuAction action, int client, int selectedItem)
+// {
+// 	if (action == MenuAction_Select) 
+// 	{
+// 		switch (selectedItem)
+// 		{
+// 			case 0:
+// 			{
+// 				if(IsValidPlayer(client))
+// 				{
+// 					gIsTkerApologized[client] = true;
+// 					int userid = GetClientUserId(client);
+// 					int time = RoundToCeil(GetClientTime(client));
+// 					int bigParam = time * 10000 + userid;
+// 					FakeClientCommand(client, "say sorry");
+// 					CreateTimer(1.0, Timer_ApologizedRespawn, bigParam, TIMER_REPEAT | TIMER_FLAG_NO_MAPCHANGE);
+// 				}
+// 			}
+// 		}
+// 	}		
+// }
