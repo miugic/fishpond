@@ -13,7 +13,6 @@
 1571676579 //de_prodigy_coop
 1568832749 //cs_downtown_coop
 486127944 //market_coopv2
-1562834364 //ins_chinatown
 599730897 //dust2_checkpoint_b8
 1217898298 //l4d_mercy_hospital_b5
 787297830 //ministry_coop_2013a
@@ -41,28 +40,30 @@
 939888961 //de_safehouse_coop_v1_4_nde2
 1725689439 //pl_minecraft_redstone_f15_ins_b
 605055192 //crossbow
-1749295672 //winter_rescue_coop_1749295672
 939881168 //dust_coop_v1_1
 1646016078 //gg_mario_dtk_v1_d_ins
-1655752799 //phantomfury
-1655754862 //ins_mosul
 1837248149 //de_survivor_css_ins_b
-862973282 //bb_gauntlet_b9_ws
 498252536 //invasion_coop_ws
-1889010299 //de_city_checkpoint_5
 1988310157 //iron_express
 1908949684 //ins_arcate_pb1
 1905422214 //insz_favela
-650616844 //estates_b4
-841479518 //khe_sanh
-863961825 //hastings
-878666586 //la_drang
 1958926230 //trench_warfare
 1994067191 //as_oilrig_v2_ins
 2005438640 //cod_nuketown_a4_ikazuchi
 1994711059 //as_tundra_v3_ins
 2010282416 //ins_tosca_v1
 2010310686 //Tosca assets
+2191010494 //dust_new
+2208434069 //cobblestone
+2176304585 //operation_metro_b_ins
+2169943977 //fairgrounds
+2168078889 //de_centered_v1
+2138928341 //de_coldwater
+2112742937 //de_aqueduct_d
+2107007637 //de_breach_d
+2035514246 //pripyat
+2027743806 //iron_express_b2
+2010282416 //ins_tosca_v1
 
 /* trash */
 1594256177 //counter-attack_empyrean
@@ -172,3 +173,4 @@
 1943396608 //car_parking_ins_b
 1998241876 //kuma_clan_kandahar
 1998467836 //kuma_clan_kandahar2
+1562834364 //ins_chinatown
