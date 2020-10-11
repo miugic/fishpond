@@ -60,4 +60,3 @@ de_aqueduct_d checkpoint
 de_breach_d checkpoint
 pripyat checkpoint
 iron_express_b2 checkpoint
-ins_tosca_v1 checkpoint

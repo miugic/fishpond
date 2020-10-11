@@ -57,13 +57,14 @@
 2208434069 //cobblestone
 2176304585 //operation_metro_b_ins
 2169943977 //fairgrounds
+2169963412 //Fairgrounds content
 2168078889 //de_centered_v1
+2168116352 //de_centered assets
 2138928341 //de_coldwater
 2112742937 //de_aqueduct_d
 2107007637 //de_breach_d
 2035514246 //pripyat
 2027743806 //iron_express_b2
-2010282416 //ins_tosca_v1
 
 /* trash */
 1594256177 //counter-attack_empyrean
