@@ -69,6 +69,16 @@
 			"class_restricted"			"1"
 			"team_access"				""
 		}
+		"weapon_welrod"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
+		"weapon_sw1917"
+		{
+			"class_restricted"			"1"
+			"team_access"				""
+		}
 		// ========================================
 		// RIFLES
 		// ========================================
@@ -235,7 +245,7 @@
 			{
 				"gear"			    "sec_light_armor"
 				"weapon"            "weapon_m40a1"
-				"weapon"            "weapon_welrod"
+				//"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_m40a1"
 				"weapon_upgrade"	"optic_scope_mk4"
 			}
@@ -289,7 +299,7 @@
 			{
 				"gear"			    "ins_light_armor"
 				"weapon"            "weapon_mosin"
-				"weapon"            "weapon_welrod"
+				//"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_mosin"
 				"weapon_upgrade"	"optic_scope_7x"
 			}
