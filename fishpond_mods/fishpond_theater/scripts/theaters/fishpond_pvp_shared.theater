@@ -245,6 +245,7 @@
 			{
 				"gear"			    "sec_light_armor"
 				"weapon"            "weapon_m40a1"
+				"weapon"            "weapon_kabar"
 				//"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_m40a1"
 				"weapon_upgrade"	"optic_scope_mk4"
@@ -299,6 +300,7 @@
 			{
 				"gear"			    "ins_light_armor"
 				"weapon"            "weapon_mosin"
+				"weapon"            "weapon_gurkha"
 				//"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_mosin"
 				"weapon_upgrade"	"optic_scope_7x"
