@@ -20,7 +20,8 @@
 				"gear"			    "sec_chest_rig"
 				"weapon"			"weapon_m590"
 				"weapon"            "weapon_welrod"
-				"weapon"            "weapon_kabar"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
 			}
 			"allowed_items"
 			{
@@ -29,8 +30,8 @@
 				"weapon"			"weapon_toz"
 				"weapon"			"weapon_sawedoff_izh43"
 				"weapon"			"weapon_m67"
-            }
-        }
+				}
+		}
 		"fishpond_template_security_Engineer"
 		{	
 			"team"			"security"
@@ -47,7 +48,8 @@
 				"weapon"            "weapon_m1911"
 				"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_m1911"
-				"weapon"            "weapon_kabar"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
 			}
 			"allowed_items"
 			{
@@ -57,7 +59,7 @@
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_at4"
 			}
-        }
+		}
 		"fishpond_template_security_Sharpshooter"
 		{
 			"team"			"security"
@@ -74,7 +76,8 @@
 				"weapon"            "weapon_welrod"
 				"weapon"			"weapon_k98k"
 				"weapon_upgrade"    "ammo_ap_mosin"
-				"weapon"            "weapon_kabar"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
 			}
 			"allowed_items"
 			{
@@ -101,7 +104,8 @@
 				"weapon"            "weapon_m40a1"
 				"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_m40a1"
-				"weapon"            "weapon_kabar"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
 			}
 			"allowed_items"
 			{
@@ -150,7 +154,8 @@
 				"gear"			    "ins_chest_rig"
 				"weapon"			"weapon_m590"
 				"weapon"            "weapon_welrod"
-				"weapon"            "weapon_gurkha"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
 			}
 			"allowed_items"
 			{
@@ -190,7 +195,8 @@
 				"weapon"            "weapon_m1911"
 				"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_m1911"
-				"weapon"            "weapon_gurkha"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
 			}
 			"allowed_items"
 			{
@@ -230,7 +236,8 @@
 				"weapon"            "weapon_k98k"
 				"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_mosin"
-				"weapon"            "weapon_gurkha"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
 			}
 			"allowed_items"
 			{
@@ -269,7 +276,8 @@
 				"weapon"            "weapon_gwr98"
 				"weapon"            "weapon_welrod"
 				"weapon_upgrade"    "ammo_ap_mosin"
-				"weapon"            "weapon_gurkha"
+				"gear"              "weapon_brassknuckles_fake"
+				"weapon"            "weapon_brassknuckles"
 			}
 			"allowed_items"
 			{
@@ -419,7 +427,8 @@
 				"weapon"                "weapon_molotov"
 				"weapon"				"weapon_m67"
 				"weapon"				"weapon_f1"
-				"weapon"                "weapon_kabar"
+				"weapon"                "weapon_katana"
+				"gear"                  "weapon_katana_fake"
 			}
 			"allowed_items"
 			{
@@ -621,7 +630,8 @@
 			"buy_order"
 			{
 				"gear"					"ins_super_armor"
-				"weapon"                "weapon_gurkha"
+				"weapon"                "weapon_katana"
+				"gear"                  "weapon_katana_fake"
 				"gear"			        "ins_chest_carrier"
 				"weapon"                "weapon_molotov"
 				"weapon"				"weapon_f1"

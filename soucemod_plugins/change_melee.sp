@@ -9,16 +9,17 @@ int g_ClientOwnFakeMeleeWeapon[MAXPLAYERS+1];
 public Plugin myinfo = 
 {
 	name = "change_melee",
-	author = "slimfish",
+	author = "slimfish & mysn",
 	description = "change melee",
 	version = "1.0",
-	url = "i.slimfish.net"
+	url = ""
 }
 
 public void OnPluginStart()
 {
 	AddCommandListener(Event_InventoryBuyGear,"inventory_buy_gear");
     AddCommandListener(Event_InventorySellGear,"inventory_sell_gear");
+    AddCommandListener(Event_InventoryBuyWeapon, "inventory_buy_weapon");
 }
 
 public Action Event_InventoryBuyGear(int client, const char[] command, int argc)
@@ -69,26 +70,22 @@ public Action Event_InventorySellGear(int client, const char[] command, int argc
     return Plugin_Continue;
 }
 
-public Action OnClientCommand(int client, int args)
+public Action Event_InventoryBuyWeapon(int client, const char[] command, int argc)
 {
     if(client > 0 && client <= MaxClients && IsClientInGame(client))
     {
-        char cmdStr[MAX_NAME_LENGTH];
-        GetCmdArg(0, cmdStr, sizeof(cmdStr));
-        if(StrEqual(cmdStr,"inventory_buy_weapon"))
+       
+        int param = GetInventoryParam();
+        for(int i = 0; i < sizeof(g_MeleeWeapons); i++)
         {
-            int param = GetInventoryParam();
-            for(int i = 0; i < sizeof(g_MeleeWeapons); i++)
+            if(param == g_MeleeWeapons[i])
             {
-                if(param == g_MeleeWeapons[i])
+                //如果玩家拥有的假刀具与真刀具没有对应关系，则认为是作弊购买
+                if(g_ClientOwnFakeMeleeWeapon[client] != g_FakeMeleeWeapons[i])
                 {
-                    //如果玩家拥有的假刀具与真刀具没有对应关系，则认为是作弊购买
-                    if(g_ClientOwnFakeMeleeWeapon[client] != g_FakeMeleeWeapons[i])
-                    {
-                        return Plugin_Handled;
-                    }
-                    break;
+                    return Plugin_Handled;
                 }
+                break;
             }
         }
     }

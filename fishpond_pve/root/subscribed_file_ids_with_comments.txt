@@ -25,7 +25,6 @@
 1580296541 //de_aztec_coop
 1457936959 //bastion_coop
 1268701704 //l4d_viennacalling_city_b1
-498255733 //clean_sweep_coop_ws
 574334931 //hurtlocker_coopv2hc
 603342622 //inferno_checkpoint_b2
 1202839339 //de_vertigo_coop
@@ -47,7 +46,6 @@
 1988310157 //iron_express
 1908949684 //ins_arcate_pb1
 1905422214 //insz_favela
-1958926230 //trench_warfare
 1994067191 //as_oilrig_v2_ins
 2005438640 //cod_nuketown_a4_ikazuchi
 1994711059 //as_tundra_v3_ins
@@ -60,7 +58,6 @@
 2169963412 //Fairgrounds content
 2168078889 //de_centered_v1
 2168116352 //de_centered assets
-2138928341 //de_coldwater
 2112742937 //de_aqueduct_d
 2107007637 //de_breach_d
 2035514246 //pripyat
@@ -175,3 +172,6 @@
 1998241876 //kuma_clan_kandahar
 1998467836 //kuma_clan_kandahar2
 1562834364 //ins_chinatown
+2138928341 //de_coldwater 掉帧
+498255733 //clean_sweep_coop_ws
+1958926230 //trench_warfare
