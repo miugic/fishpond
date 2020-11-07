@@ -86,7 +86,6 @@
 				"weapon"            "weapon_enfield"
 				"weapon"			"weapon_m67"
 			}
-			
 		}
 		"fishpond_template_security_Sniper"
 		{	
@@ -119,10 +118,14 @@
 				"weapon_upgrade"
 				{
 					"optic_aimpoint"		"-1"
-					"optic_2xaimpoint"		"-1"
+					"optic_2xaimpoint"	"-1"
+					"optic_po4x24"      "-1"
+					"optic_elcan"       "-1"
+					"optic_scope_7x"    "-1"
+					"optic_scope_mk4"   "-1"
 				}
 			}
-        }
+		}
 		//#############################################//
 		//############### INSURGENCT PLAYERS ##########//
 		//#############################################//
@@ -164,8 +167,8 @@
 				"weapon"			"weapon_toz"
 				"weapon"			"weapon_sawedoff_izh43"
 				"weapon"			"weapon_f1"
-            }
-        }
+			}
+		}
 		"fishpond_template_insurgent_Sapper"
 		{	
 			"team"			"insurgents"
@@ -206,7 +209,7 @@
 				"weapon"			"weapon_c4_ied"
 				"weapon"			"weapon_rpg7"
 			}
-        }
+		}
 		"fishpond_template_insurgent_Sharpshooter"
 		{	
 			"team"			"insurgents"
@@ -246,7 +249,7 @@
 				"weapon"            "weapon_enfield"
 				"weapon"			"weapon_f1"
 			}
-        }
+		}
 		"fishpond_template_insurgent_Sniper"
 		{	
 			"team"			"insurgents"
@@ -291,10 +294,14 @@
 				"weapon_upgrade"
 				{
 					"optic_aimpoint"		"-1"
-					"optic_2xaimpoint"		"-1"
+					"optic_2xaimpoint"	"-1"
+					"optic_po4x24"      "-1"
+					"optic_elcan"       "-1"
+					"optic_scope_7x"    "-1"
+					"optic_scope_mk4"   "-1"
 				}
 			}
-        }
+		}
 		//#############################################//
 		//############### SECURITY BOTS ###############//
 		//#############################################//
@@ -644,6 +651,6 @@
 				"weapon"				"weapon_m67"
 			}
 		}
-    }
+	}
 }
 

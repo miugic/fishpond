@@ -280,7 +280,7 @@
 					"optic_scope_7x_springfield" "-3"
 				}
 			}
-        }
+		}
 		"fishpond_template_insurgent_Sniper"
 		{	
 			"team"			"insurgents"
@@ -336,6 +336,6 @@
 				}
 			}
 		}
-    }
+	}
 }
 

@@ -744,7 +744,7 @@
 		"barrel_silencer_sec1"
 		{
 			"import"					"base_silencer"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"class_restricted"			"0"
 			"length"					"12"
 			"weight"					"15"
@@ -784,7 +784,7 @@
 		"barrel_silencer_heavy"
 		{
 			"import"					"base_silencer"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"class_restricted"			"0"
 			"weight"					"20"
 			"length"					"12"
@@ -846,7 +846,7 @@
 		"barrel_silencer_pistol"
 		{
 			"import"				"base_silencer"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"weight"					"10"
 			"class_restricted"			"0"
 			"allowed_weapons"
