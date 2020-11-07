@@ -11,3 +11,10 @@ dgl_speed2 firefight
 ins_cf_transportship_p1fix firefight
 pb_norrington_rgb_winter_ins firefight
 dgl_paintball4_d firefight
+dgl_street3 firefight
+aim_shootout_a3 firefight
+ins_modern_p1 firefight
+ins_pillar_p1fix firefight
+ins_partition_p1fix firefight
+ins_cf_newyear_p1 firefight
+xmas_last_stand firefight
