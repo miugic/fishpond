@@ -347,7 +347,7 @@
 		}
 		"weapon_m1911"
 		{
-			"weapon_cost"				"2"
+			"weapon_cost"				"1"
 			"weapon_weight"				"50"
 			"class_restricted"			"1"
 			"ammo_clip"
@@ -359,7 +359,7 @@
 		}
 		"weapon_m45"
 		{
-			"weapon_cost"				"2"
+			"weapon_cost"				"1"
 			"weapon_weight"				"50"
 			"class_restricted"			"1"
 			"ammo_clip"
