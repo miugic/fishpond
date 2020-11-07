@@ -30,7 +30,9 @@
 				"weapon"			"weapon_toz"
 				"weapon"			"weapon_sawedoff_izh43"
 				"weapon"			"weapon_m67"
-				}
+				"gear"        "weapon_kabar_fake"
+				"weapon"      "weapon_kabar"
+			}
 		}
 		"fishpond_template_security_Engineer"
 		{	
@@ -58,6 +60,8 @@
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_at4"
+				"gear"        "weapon_kabar_fake"
+				"weapon"      "weapon_kabar"
 			}
 		}
 		"fishpond_template_security_Sharpshooter"
@@ -83,8 +87,10 @@
 			{
 				"weapon"			"weapon_k98k"
 				"weapon"			"weapon_springfield"
-				"weapon"            "weapon_enfield"
+				"weapon"      "weapon_enfield"
 				"weapon"			"weapon_m67"
+				"gear"        "weapon_kabar_fake"
+				"weapon"      "weapon_kabar"
 			}
 		}
 		"fishpond_template_security_Sniper"
@@ -109,9 +115,11 @@
 			"allowed_items"
 			{
 				"weapon"			"weapon_m40a1"
-				"weapon"            "weapon_gwr98"
-				"weapon"            "weapon_mosin"
+				"weapon"      "weapon_gwr98"
+				"weapon"      "weapon_mosin"
 				"weapon"			"weapon_m67"
+				"gear"        "weapon_kabar_fake"
+				"weapon"      "weapon_kabar"
 			}
 			"cost_modifiers"
 			{
@@ -167,6 +175,8 @@
 				"weapon"			"weapon_toz"
 				"weapon"			"weapon_sawedoff_izh43"
 				"weapon"			"weapon_f1"
+				"gear"        "weapon_gurkha_fake"
+				"weapon"      "weapon_gurkha"
 			}
 		}
 		"fishpond_template_insurgent_Sapper"
@@ -208,6 +218,8 @@
 				"weapon"			"weapon_f1"
 				"weapon"			"weapon_c4_ied"
 				"weapon"			"weapon_rpg7"
+				"gear"        "weapon_gurkha_fake"
+				"weapon"      "weapon_gurkha"
 			}
 		}
 		"fishpond_template_insurgent_Sharpshooter"
@@ -246,8 +258,10 @@
 			{
 				"weapon"			"weapon_k98k"
 				"weapon"			"weapon_springfield"
-				"weapon"            "weapon_enfield"
+				"weapon"      "weapon_enfield"
 				"weapon"			"weapon_f1"
+				"gear"        "weapon_gurkha_fake"
+				"weapon"      "weapon_gurkha"
 			}
 		}
 		"fishpond_template_insurgent_Sniper"
@@ -285,9 +299,11 @@
 			"allowed_items"
 			{
 				"weapon"			"weapon_m40a1"
-				"weapon"            "weapon_gwr98"
-				"weapon"            "weapon_mosin"
+				"weapon"      "weapon_gwr98"
+				"weapon"      "weapon_mosin"
 				"weapon"			"weapon_f1"
+				"gear"        "weapon_gurkha_fake"
+				"weapon"      "weapon_gurkha"
 			}
 			"cost_modifiers"
 			{

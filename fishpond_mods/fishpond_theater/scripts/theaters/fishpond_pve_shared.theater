@@ -88,7 +88,7 @@
 		"weapon_kabar"
 		{
 			"weapon_cost"				"0"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"weapon_slot"				"melee"
 			"print_name"				"#weapon_kabar_fp"
 			"print_desc"				"#weapon_kabar_fp_desc"
@@ -102,13 +102,13 @@
 				"position"				"55 0 0"
 				"angle"					"40 45 10"
 			}
-			"team_access"				"security"
+			"team_access"				"security, security"
 		}
 
 		"weapon_gurkha"
 		{
 			"weapon_cost"				"0"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"weapon_slot"				"melee"
 			"print_name"				"#weapon_gurkha_fp"
 			"print_desc"				"#weapon_gurkha_fp_desc"
@@ -122,7 +122,7 @@
 				"position"				"55 0 0"
 				"angle"					"40 45 10"
 			}
-			"team_access"				"insurgent"
+			"team_access"				"security, insurgent"
 		}
 
 		"weapon_katana"
@@ -329,6 +329,7 @@
 			"model"						"models/weapons/w_marinebayonet.mdl"
 			"gear_slot"					"accessory"
 			"gear_cost"					"1"
+			"class_restricted"  "1"
 			"print_name"				"#weapon_kabar_fp"
 			"print_desc"				"#weapon_kabar_fp_desc"
 			"gear_weight"				"0"
@@ -341,11 +342,12 @@
 			"model"						"models/weapons/w_gurkha.mdl"
 			"gear_slot"					"accessory"
 			"gear_cost"					"1"
+			"class_restricted"  "1"
 			"print_name"				"#weapon_gurkha_fp"
 			"print_desc"				"#weapon_gurkha_fp_desc"
 			"gear_weight"				"0"
 			//"entity"					"nvg"
-			"team_access"				"insurgent"
+			"team_access"				"security"
 		}
 
 		"weapon_katana_fake"
