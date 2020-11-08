@@ -30,7 +30,6 @@
 1202839339 //de_vertigo_coop
 783832763 //district_coopv3
 965741715 //ministry_coopv2
-1207457291 //cs_italy_coop
 492051918 //the_raid_coop_ws 突袭，室内图
 1648713738 //cs_agency_ins_b2 CSGO办公大楼，可能触发某些玩家反光贴图丢失问题
 1734873741 //de_mirage_csco_pb4
@@ -178,3 +177,4 @@
 2138928341 //de_coldwater 掉帧
 498255733 //clean_sweep_coop_ws
 1958926230 //trench_warfare
+1207457291 //cs_italy_coop

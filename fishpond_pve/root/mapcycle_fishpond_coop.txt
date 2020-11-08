@@ -27,7 +27,6 @@ inferno_checkpoint_b2 checkpoint
 de_vertigo_coop checkpoint
 district_coopv3 checkpoint
 ministry_coopv2 checkpoint
-cs_italy_coop checkpoint
 the_raid_coop_ws checkpoint
 cs_agency_ins_b2 checkpoint
 de_mirage_csco_pb4 checkpoint
