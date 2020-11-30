@@ -59,3 +59,4 @@ iron_express_b2 checkpoint
 map_1 checkpoint
 inferno_new_v1 checkpoint
 ins_italy_coop checkpoint
+cf_transportship_ins_b checkpoint

@@ -64,6 +64,7 @@
 2256050914 //map_1
 2148192104 //inferno_new_v1
 2265996024 //ins_italy_coop
+1940281627 //cf_transportship_ins_b
 
 /* trash */
 1594256177 //counter-attack_empyrean
