@@ -61,7 +61,6 @@
 2107007637 //de_breach_d
 2035514246 //pripyat
 2027743806 //iron_express_b2
-2256050914 //map_1
 2148192104 //inferno_new_v1
 2265996024 //ins_italy_coop
 1940281627 //cf_transportship_ins_b
@@ -179,3 +178,4 @@
 498255733 //clean_sweep_coop_ws
 1958926230 //trench_warfare
 1207457291 //cs_italy_coop
+2256050914 //map_1

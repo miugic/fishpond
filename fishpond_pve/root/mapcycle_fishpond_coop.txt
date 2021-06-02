@@ -56,7 +56,6 @@ de_aqueduct_d checkpoint
 de_breach_d checkpoint
 pripyat checkpoint
 iron_express_b2 checkpoint
-map_1 checkpoint
 inferno_new_v1 checkpoint
 ins_italy_coop checkpoint
 cf_transportship_ins_b checkpoint
